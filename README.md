@@ -16,6 +16,13 @@ El banco procede exclusivamente de `Solucionario_control_formativo.pdf`. El PDF 
 
 ## Versiones para Mac y Windows
 
+Descarga directa desde GitHub:
+
+- [Descargar para Mac](https://github.com/vizdiego26-pixel/codexxxxx/raw/refs/heads/main/downloads/Lamina-Mac.zip)
+- [Descargar para Windows](https://github.com/vizdiego26-pixel/codexxxxx/raw/refs/heads/main/downloads/Lamina-Windows.zip)
+
+Si el repositorio es privado, inicia sesión con la cuenta que tiene acceso.
+
 Después de compilar, `releases/Lamina-Mac.zip` y `releases/Lamina-Windows.zip` contienen una versión portable. Descomprime el ZIP y abre `Lamina.html` en tu navegador. No requieren Node, instaladores, conexión ni permisos de administrador. Son distribuciones de la app web, no binarios nativos `.app`/`.exe`.
 
 La pauta se incluye como `pauta.pdf`. En modo `file://` algunos navegadores restringen la persistencia de datos locales; para el guardado más fiable, usa la versión web instalada.
