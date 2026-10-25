@@ -1,0 +1,27 @@
+{
+  "id": "./",
+  "name": "Lámina — Morfología I",
+  "short_name": "Lámina",
+  "description": "70 láminas de Morfología I. Una pregunta a la vez, dos minutos para observar y corrección inmediata.",
+  "lang": "es",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f8f5",
+  "theme_color": "#183e31",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "L01",
+    "number": 1,
+    "question": "Identifique el tipo de matriz en A",
+    "answer": "Matriz interterritorial",
+    "image": "/slides/lamina-01.jpeg",
+    "sourcePage": 2,
+    "topic": "Histología",
+    "category": "Cartílago",
+    "explanation": {
+      "reading": "La línea termina en un área de matriz entre grupos de lagunas. Esa región es más clara y extensa que los halos violetas que rodean de manera inmediata a los condrocitos.",
+      "rationale": "Se solicita el tipo de matriz, no el nombre de la célula ni del cartílago completo. La localización entre territorios celulares sostiene el rótulo interterritorial.",
+      "definition": "Es la matriz extracelular del cartílago situada entre los territorios que rodean a los condrocitos o a sus grupos isógenos. Su aspecto suele ser más claro que el de los halos territoriales.",
+      "function": "La red de colágeno, principalmente de tipo II en el cartílago hialino, limita la deformación por tracción. Los proteoglucanos y el agua retenida contribuyen a soportar compresión. La matriz avascular permite el intercambio de pequeños metabolitos por difusión.",
+      "development": "Durante la condrogénesis, células mesenquimáticas se condensan y se diferencian en condroblastos. Al secretar matriz quedan separadas y pasan a reconocerse como condrocitos. La matriz pertenece a un tejido diferenciado y no constituye una hoja germinal. El origen del mesénquima depende de la región: mesodermo o ectomesénquima de cresta neural en parte de la cabeza.",
+      "distinction": "El halo inmediato de cada laguna corresponde a matriz capsular o pericelular. El territorio alrededor de un grupo celular se distingue de la matriz que queda entre grupos. La posición del extremo de la flecha decide el rótulo.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 3, 8 y 12; G10, p. 5; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L02",
+    "number": 2,
+    "question": "Identifique el componente de la célula en A",
+    "answer": "Miofibrillas",
+    "image": "/slides/lamina-02.jpeg",
+    "sourcePage": 4,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "El extremo negro se sitúa dentro del sarcoplasma y señala su aspecto finamente granular. Se observan varios núcleos centrales, compatibles con un campo de músculo cardíaco cortado transversalmente.",
+      "rationale": "El componente intracelular señalado es el aparato miofibrilar. Las miofibrillas se infieren por la textura del citoplasma; la foto no resuelve filamentos individuales de actina o miosina.",
+      "definition": "Son conjuntos longitudinales de proteínas contráctiles organizados en sarcómeros. En un corte transversal pueden verse como una granulación fina del sarcoplasma, sin que cada filamento individual sea resoluble con microscopía óptica.",
+      "function": "La interacción entre filamentos finos de actina y gruesos de miosina transforma energía del ATP en fuerza. El calcio regula el acceso de la miosina a la actina mediante el complejo de troponina y la tropomiosina. El deslizamiento acorta los sarcómeros.",
+      "development": "Tanto el músculo esquelético como el cardíaco poseen miofibrillas. La diferencia embrionaria es decisiva: los precursores del músculo esquelético del tronco y miembros proceden principalmente del mesodermo paraxial, mientras los cardiomiocitos se diferencian del mesodermo esplácnico cardiogénico. Los cardiomiocitos conservan límites celulares individuales.",
+      "distinction": "Un núcleo central es una estructura nuclear, no una miofibrilla. El endomisio se encuentra entre las células. El aspecto punteado dentro del citoplasma permite reconocer el aparato contráctil sin afirmar que se vean filamentos aislados.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 39-40 y 45-52; CAR, cap. 9, pp. 182-183 y 189-190 (PDF 197-198 y 204-205)."
+    }
+  },
+  {
+    "id": "L03",
+    "number": 3,
+    "question": "Identifique la estructura en A",
+    "answer": "Bandas A",
+    "image": "/slides/lamina-03.jpeg",
+    "sourcePage": 6,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "Se observan fibras musculares longitudinales con núcleos periféricos y estriación transversal. La flecha oblicua señala una de las franjas de la estriación; la pauta identifica las bandas A. El grosor del trazo limita una comprobación independiente del extremo.",
+      "rationale": "El rótulo final es banda A, la franja oscura del sarcómero. La lectura anterior como banda I se corrige con la pauta oficial y con la distinción de bandas claras y oscuras de la clase 10.",
+      "definition": "Es la banda anisotrópica u oscura del sarcómero. Abarca toda la longitud de los filamentos gruesos de miosina y las zonas donde se superponen con filamentos finos. En su parte central puede distinguirse la zona H, de menor superposición.",
+      "function": "Contiene los filamentos gruesos que participan en la generación de fuerza. Durante la contracción aumenta su superposición con la actina: la banda A mantiene aproximadamente su longitud, mientras disminuyen la banda I y la zona H.",
+      "development": "La estriación aparece cuando las proteínas contráctiles se ensamblan y sus sarcómeros se alinean. En la histogénesis esquelética, mioblastos se fusionan para formar miotubos. Al madurar, estos acumulan miofibrillas y sus núcleos se desplazan hacia la periferia. La organización sarcomérica también existe en el músculo cardíaco.",
+      "distinction": "La banda I es más clara y contiene filamentos finos sin superposición con gruesos. La línea Z es una línea estrecha dentro de la banda I. No debe confundirse una franja completa con una línea que delimita el sarcómero.",
+      "contrast": "La propuesta anterior fue «Banda I, interpretación probable». Se sustituye por «Bandas A» y se actualiza la explicación.",
+      "sources": "H10, pp. 45-48; G10, p. 2; CAR, cap. 9, pp. 182-183 (PDF 197-198). Pauta del QUIZ 4, pregunta 60 del envío."
+    }
+  },
+  {
+    "id": "L04",
+    "number": 4,
+    "question": "Identifique la célula en A",
+    "answer": "Osteocito",
+    "image": "/slides/lamina-04.jpeg",
+    "sourcePage": 8,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "La flecha llega a un pequeño alojamiento alargado dentro de la matriz eosinófila. Alrededor se reconocen sistemas de laminillas y conductos de osteonas.",
+      "rationale": "La ubicación incluida en matriz favorece osteocito. Un osteoblasto se buscaría en una superficie ósea y un osteoclasto sería mucho mayor y estaría relacionado con resorción.",
+      "definition": "Es la célula ósea madura alojada dentro de una laguna de la matriz mineralizada. Sus prolongaciones transcurren por canalículos y permiten mantener contacto con otras células del tejido.",
+      "function": "Participa en la mecanotransducción: detecta las cargas que deforman el hueso y regula respuestas de formación y resorción. Mantiene su microambiente y contribuye a la homeostasis mineral. El sistema de prolongaciones facilita la comunicación en un tejido cuya matriz limita la difusión directa.",
+      "development": "Deriva de un osteoblasto que queda incluido en la matriz que produjo. La línea osteogénica se origina en mesénquima. El esqueleto axial se relaciona principalmente con esclerotomos, el apendicular con mesodermo lateral y parte del esqueleto craneofacial con cresta neural. Osteocito y osteoclasto tienen linajes diferentes.",
+      "distinction": "Un osteoblasto activo se sitúa sobre la superficie de una trabécula. Un osteoclasto es una célula grande, a menudo multinucleada, asociada a resorción. Una laguna vacía por procesamiento no permite describir todos los detalles celulares, aunque identifica el alojamiento habitual del osteocito.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 23-29; G10, pp. 3-4; CAR, cap. 9, pp. 165-168 (PDF 180-183)."
+    }
+  },
+  {
+    "id": "L05",
+    "number": 5,
+    "question": "Identifique la célula en A",
+    "answer": "Célula de las crestas neurales",
+    "image": "/slides/lamina-05.jpeg",
+    "sourcePage": 10,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La línea señala un pequeño grupo celular entre el ectodermo superficial y la cara dorsolateral del epitelio neural. Ventral al tubo se reconoce una estructura redonda compatible con notocorda.",
+      "rationale": "La posición dorsal y lateral al tubo, separada del epitelio organizado, coincide con el territorio de las células de la cresta neural en migración.",
+      "definition": "Son células derivadas del borde del neuroectodermo. Se ubican inicialmente en los márgenes de los pliegues neurales y después se desprenden y migran desde la región dorsal del tubo neural.",
+      "function": "Generan poblaciones muy diversas según el nivel del eje corporal y su ruta migratoria. En el tronco producen, entre otros derivados, neuronas de ganglios sensitivos y autonómicos, células de Schwann y melanocitos. La cresta craneal aporta también ectomesénquima a la cara.",
+      "development": "Surgen durante la neurulación. Tras una transición epitelio-mesénquima, las células adquieren capacidad migratoria. Su posición dorsolateral respecto del tubo permite distinguirlas del mesodermo paraxial. Pertenecen al linaje ectodérmico, aunque algunas formen tejidos conjuntivos y cartílago craneofacial.",
+      "distinction": "El tubo neural es el epitelio organizado que rodea al neurocele. Un somita es una masa mesodérmica lateral. La micrografía por sí sola no permite asignar a una célula migratoria un destino definitivo; los derivados se establecen por estudios de linaje y por el contexto embrionario.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "C9, pp. 20-22; IMG, pp. 16-18; CAR, caps. 6 y 12, pp. 95-96 y 254-260 (PDF 110-111 y 269-275)."
+    }
+  },
+  {
+    "id": "L06",
+    "number": 6,
+    "question": "Identifique el tipo de cartílago en la imagen",
+    "answer": "Cartílago hialino",
+    "image": "/slides/lamina-06.jpeg",
+    "sourcePage": 12,
+    "topic": "Histología",
+    "category": "Cartílago",
+    "explanation": {
+      "reading": "La matriz es homogénea y rosado-violeta, con condrocitos alojados en lagunas y varios grupos isógenos. No se ven haces colágenos gruesos ni una malla elástica resaltada.",
+      "rationale": "El patrón de matriz homogénea con células en lagunas sostiene la clasificación hialina. El tamaño de los grupos celulares es un apoyo y no el criterio único.",
+      "definition": "Es tejido conjuntivo especializado con condrocitos en lagunas y una matriz de aspecto homogéneo. Las fibrillas finas de colágeno II no suelen distinguirse individualmente en una preparación habitual con hematoxilina-eosina.",
+      "function": "Combina resistencia a la compresión con cierta flexibilidad. Su matriz hidratada distribuye cargas y permite difusión de nutrientes. En las articulaciones ofrece una superficie de baja fricción. El cartílago articular carece de pericondrio, a diferencia de muchas otras localizaciones.",
+      "development": "Se forma por condensación mesenquimática y diferenciación condrogénica, relacionada con SOX9. Sirve de molde para numerosos huesos que se formarán mediante osificación endocondral. Una parte persiste como cartílago articular, costal o de vías aéreas, por lo que reconocer cartílago no implica que toda la muestra vaya a convertirse en hueso.",
+      "distinction": "El cartílago elástico muestra una red de fibras elásticas con tinciones apropiadas. El fibrocartílago presenta haces colágenos más evidentes y condrocitos alineados. El número de células de un grupo isógeno ayuda a orientarse, pero no es un criterio suficiente por sí solo.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 3-12; G10, pp. 5-6; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L07",
+    "number": 7,
+    "question": "Identifique el tipo de tejido óseo en la imagen",
+    "answer": "Compacto",
+    "image": "/slides/lamina-07.jpeg",
+    "sourcePage": 14,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "El campo está ocupado por matriz ósea continua. Se distingue un conducto central rodeado de laminillas concéntricas y múltiples lagunas pequeñas en la matriz.",
+      "rationale": "La osteona y la continuidad cortical diferencian el hueso compacto del esponjoso. La disposición en laminillas indica madurez de la arquitectura.",
+      "definition": "Es hueso organizado en una masa densa con osteonas y otras disposiciones de laminillas. En el corte transversal, un conducto central rodeado por laminillas concéntricas identifica un sistema de Havers.",
+      "function": "Aporta resistencia mecánica y protección con un espesor cortical importante. Los conductos permiten el paso de vasos y nervios. Los osteocitos alojados en lagunas se relacionan mediante canalículos con las fuentes de nutrición y con otras células de la red ósea.",
+      "development": "La distinción compacto/esponjoso describe la arquitectura del hueso. La distinción intramembranoso/endocondral describe el mecanismo de formación. Ambos mecanismos pueden originar hueso que, después de remodelarse, adopte arquitectura laminar compacta. La presencia de osteonas no demuestra por sí misma cuál fue el mecanismo embrionario inicial.",
+      "distinction": "El tejido esponjoso se organiza en trabéculas separadas por espacios medulares amplios. Hueso compacto no significa hueso inmaduro: la imagen con laminillas y osteonas corresponde a organización madura. Los conductos vasculares no son lagunas de osteocitos.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 17-18 y 34-36; G10, pp. 3-4; E11, pp. 33-49."
+    }
+  },
+  {
+    "id": "L08",
+    "number": 8,
+    "question": "Identifique la estructura en A",
+    "answer": "Surco neural",
+    "image": "/slides/lamina-08.jpeg",
+    "sourcePage": 16,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La llave comprende el neuroectodermo plegado de la línea media dorsal. La hendidura central permanece comunicada con la superficie dorsal; por debajo se reconoce la notocorda. La abertura distingue esta imagen de un tubo ya cerrado.",
+      "rationale": "La pauta identifica surco neural. La placa se ha invaginado y sus bordes se han elevado, pero el cierre dorsal todavía no está completo en el nivel del corte. Se corrige la identificación anterior como tubo neural.",
+      "definition": "Es la depresión longitudinal que se forma al plegarse la placa neural. Sus bordes elevados son los pliegues neurales. Antes de la fusión dorsal, el surco comunica con la superficie y no constituye una luz tubular completamente cerrada.",
+      "function": "Forma parte del proceso que construye el tubo neural, precursor del encéfalo y de la médula espinal. Su función se entiende como una etapa morfogenética de la neurulación; aún no equivale a un órgano nervioso maduro.",
+      "development": "Se origina en el neuroectodermo de la placa neural. El plegamiento aproxima los bordes y su fusión transforma el surco abierto en tubo neural. En un mismo embrión pueden coexistir niveles abiertos y cerrados porque el cierre progresa a lo largo del eje.",
+      "distinction": "Placa neural nombra el tejido engrosado; surco neural, su depresión abierta; pliegues neurales, sus bordes; y tubo neural, la estructura cerrada. La notocorda es un cordón mesodérmico ventral, diferente de todas esas estructuras ectodérmicas.",
+      "contrast": "La propuesta anterior fue «Tubo neural». Se sustituye por «Surco neural» y se actualiza la explicación.",
+      "sources": "C9, pp. 17-20 y 25; IMG, pp. 14-18; CAR, cap. 6, pp. 92-96 (PDF 107-111). Pauta del QUIZ 4, pregunta 15 del envío."
+    }
+  },
+  {
+    "id": "L09",
+    "number": 9,
+    "question": "Identifique la zona en A",
+    "answer": "Zona proliferativa",
+    "image": "/slides/lamina-09.jpeg",
+    "sourcePage": 18,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "La llave abarca el sector izquierdo de la placa, donde los condrocitos son relativamente pequeños y se disponen en columnas. A la derecha se observan lagunas mayores y el frente de sustitución ósea.",
+      "rationale": "El tamaño celular moderado y la alineación en columnas identifican la región proliferativa antes de la hipertrofia.",
+      "definition": "Es la región de la placa de crecimiento donde los condrocitos se dividen y se disponen en columnas. Las células y lagunas suelen ser relativamente pequeñas y aplanadas en comparación con la zona hipertrófica.",
+      "function": "Aporta nuevas células y matriz al cartílago de crecimiento. La sucesión de proliferación, hipertrofia y sustitución por hueso permite el crecimiento longitudinal de los huesos largos. La orientación de las columnas refleja la dirección principal de ese crecimiento.",
+      "development": "Forma parte de la osificación endocondral. Un molde inicial de cartílago hialino se conserva transitoriamente entre los centros de osificación. Las células cartilaginosas y las células osteogénicas cumplen funciones distintas durante la sustitución de la matriz.",
+      "distinction": "En la zona de reserva, los condrocitos están más dispersos y no forman columnas tan evidentes. En la hipertrófica, las lagunas aumentan mucho de tamaño. La tinción aislada es menos fiable que la combinación de tamaño, alineación y posición respecto del frente de osificación.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 40-49, especialmente 45-47; G11, pp. 4-5; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L10",
+    "number": 10,
+    "question": "Identifique la estructura en A",
+    "answer": "Banda I",
+    "image": "/slides/lamina-10.jpeg",
+    "sourcePage": 20,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "El puntero horizontal termina en una franja clara de la estriación de una fibra esquelética. En el campo hay bandas repetidas y núcleos alargados en la periferia de las fibras.",
+      "rationale": "La franja clara corresponde a banda I. No se delimita un sarcómero completo porque no hay una llave entre dos líneas Z.",
+      "definition": "Es la franja clara de la estriación transversal. Contiene filamentos finos sin superposición con filamentos gruesos. La línea Z la divide en dos partes y marca el límite entre sarcómeros contiguos.",
+      "function": "Durante la contracción aumenta la superposición de los filamentos y la banda I se acorta. La actina y la miosina mantienen aproximadamente su longitud. La banda A conserva su extensión, porque corresponde a la longitud de los filamentos gruesos.",
+      "development": "La estriación aparece cuando las proteínas contráctiles se ensamblan y sus sarcómeros se alinean. En la histogénesis esquelética, mioblastos se fusionan para formar miotubos. Al madurar, estos acumulan miofibrillas y sus núcleos se desplazan hacia la periferia. La organización sarcomérica también existe en el músculo cardíaco.",
+      "distinction": "La banda A es la franja más oscura. La línea Z es mucho más delgada que una banda completa. Una flecha gruesa o una foto desenfocada puede cubrir el límite entre dos franjas, por lo que la subidentificación debe quedar como probable cuando ese límite no es nítido.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 43 y 45-48; G10, p. 2; CAR, cap. 9, pp. 182-183 (PDF 197-198)."
+    }
+  },
+  {
+    "id": "L11",
+    "number": 11,
+    "question": "Identifique el tipo de tejido óseo en la imagen",
+    "answer": "Esponjoso",
+    "image": "/slides/lamina-11.jpeg",
+    "sourcePage": 22,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "Se observan trabéculas eosinófilas separadas por grandes espacios con células hematopoyéticas y adipocitos. En las trabéculas hay lagunas pequeñas correspondientes a osteocitos.",
+      "rationale": "Los espacios medulares amplios y la disposición trabecular identifican arquitectura esponjosa. El material entre las trabéculas no es cartílago.",
+      "definition": "Es hueso dispuesto en trabéculas que delimitan espacios medulares. Las trabéculas maduras contienen laminillas y osteocitos, aunque muchas de ellas no necesitan una osteona completa para su nutrición.",
+      "function": "Distribuye cargas con una masa relativamente reducida y aloja médula ósea entre sus trabéculas. La red trabecular se adapta a las solicitaciones mecánicas mediante remodelación. Las superficies están recubiertas por endostio, con composición celular variable según la actividad.",
+      "development": "Puede aparecer durante la formación intramembranosa y durante la endocondral. El hueso primario se remodela y se sustituye por hueso laminar. La arquitectura esponjosa no identifica por sí sola un origen embrionario concreto ni debe confundirse con una zona de cartílago.",
+      "distinction": "El espacio medular es el intervalo entre trabéculas y puede contener células hematopoyéticas y adipocitos. Una laguna de osteocito es mucho más pequeña y está dentro de la matriz. El hueso compacto presenta una organización cortical más continua y osteonas frecuentes.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 17-18 y 36; G10, pp. 3-4; E11, pp. 36-49."
+    }
+  },
+  {
+    "id": "L12",
+    "number": 12,
+    "question": "Señale 1 derivado de A",
+    "answer": "Pared corporal",
+    "image": "/slides/lamina-12.jpeg",
+    "sourcePage": 24,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La llave señala el pliegue lateral externo que reúne ectodermo y mesodermo somático. La imagen coincide con el ejemplo rotulado como somatopleura en la clase de desarrollo del mesodermo.",
+      "rationale": "La pregunta solicita un derivado. Primero se identifica A como somatopleura y después se responde con pared corporal ventrolateral. También son válidos componentes de los miembros si se especifica el tejido.",
+      "definition": "Es la asociación del ectodermo superficial con la hoja somática o parietal del mesodermo lateral. En el plegamiento lateral forma la pared externa del cuerpo, situada dorsal al celoma intraembrionario.",
+      "function": "Participa en la formación de la pared corporal ventrolateral y de los esbozos de los miembros. Su mesodermo aporta componentes conjuntivos y esqueléticos de los miembros, mientras el ectodermo constituye el revestimiento epidérmico y centros de señalización como la cresta ectodérmica apical.",
+      "development": "El mesodermo lateral se divide en una hoja somática, junto al ectodermo, y una esplácnica, junto al endodermo. La primera forma parte de la somatopleura y la segunda de la esplacnopleura. El celoma queda entre ambas. Esta relación permite orientar los cortes antes de buscar sus derivados.",
+      "distinction": "Somatopleura designa una asociación de dos hojas, no un sinónimo exacto de mesodermo somático. La esplacnopleura está en la cara visceral. El mesodermo intermedio es una región más medial vinculada al sistema urogenital.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, p. 9: misma organización y llave de somatopleura; E11, pp. 24-28; CAR, cap. 6, p. 104 (PDF 119)."
+    }
+  },
+  {
+    "id": "L13",
+    "number": 13,
+    "question": "Identifique la estructura en A",
+    "answer": "Placa neural",
+    "image": "/slides/lamina-13.jpeg",
+    "sourcePage": 26,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La flecha llega al neuroepitelio engrosado del dorso, entre el borde elevado y la depresión central. El endodermo forma una lámina ventral y el ectodermo lateral es más delgado.",
+      "rationale": "El material de respuestas rotula este tejido como placa neural. Se elige el tejido al que llega la flecha y se distingue del surco, que es una depresión, y del vértice de un pliegue.",
+      "definition": "Es el neuroectodermo engrosado del dorso embrionario. En las etapas tempranas constituye una placa de células columnares. Al plegarse presenta un surco central y bordes elevados, los pliegues neurales.",
+      "function": "Proporciona el epitelio precursor del sistema nervioso central. Su remodelación modifica la forma de las células y la geometría del tejido hasta producir el tubo neural. Las regiones de borde se relacionan con la especificación de la cresta neural.",
+      "development": "La inducción neural implica señales del organizador y de tejidos axiales, junto con la modulación de BMP y otras vías. En la cronología de la clase, la placa se reconoce alrededor del día 18 y después progresa su plegamiento. El estado morfológico es más informativo que asignar un día exacto a un corte aislado.",
+      "distinction": "La placa es el tejido. El surco es la depresión que se forma en ella y el pliegue es su borde elevado. El rótulo debe corresponder al lugar al que llega el puntero, no al espacio vacío que queda cerca.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "IMG, p. 14: misma micrografía con placa y pliegues; C9, pp. 18 y 25; CAR, cap. 6, pp. 92-94 (PDF 107-109)."
+    }
+  },
+  {
+    "id": "L14",
+    "number": 14,
+    "question": "Identifique la célula en A",
+    "answer": "Osteoblasto",
+    "image": "/slides/lamina-14.jpeg",
+    "sourcePage": 28,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "La línea termina sobre una hilera de células basófilas, relativamente cúbicas, que recubren la superficie de una trabécula ósea en formación.",
+      "rationale": "Su posición superficial y el aspecto de células secretoras identifican osteoblastos. Los osteocitos de la misma muestra se encuentran incluidos dentro de la matriz.",
+      "definition": "Es la célula formadora de matriz ósea. Cuando está activa suele ser cúbica, con citoplasma basófilo, y se dispone en hilera sobre una superficie donde se está depositando osteoide.",
+      "function": "Sintetiza colágeno I y proteínas de la matriz orgánica, y participa en la mineralización. También interviene en la regulación del remodelado y de la diferenciación osteoclástica mediante señales como RANKL. Parte de los osteoblastos queda incluida en la matriz y se convierte en osteocitos.",
+      "development": "Deriva de células osteoprogenitoras mesenquimáticas. Su diferenciación se relaciona con reguladores como RUNX2. Participa tanto en osificación intramembranosa como endocondral. En ambos casos el hueso requiere osteoblastos, aunque en la segunda vía exista un molde cartilaginoso previo.",
+      "distinction": "El osteocito ya está rodeado por matriz. El osteoclasto es grande y multinucleado, y resorbe hueso. Una célula de revestimiento inactiva es más aplanada que el osteoblasto secretor. La relación con la superficie ósea es el criterio principal.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 23-28 y 31; G10, pp. 3-4; E11, pp. 35-42; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L15",
+    "number": 15,
+    "question": "Identifique la estructura en A",
+    "answer": "Canalículo",
+    "image": "/slides/lamina-15.jpeg",
+    "sourcePage": 30,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "La línea fina roja termina en una de las prolongaciones oscuras que irradian desde las lagunas en una preparación de hueso por desgaste. El gran espacio central pertenece a una osteona.",
+      "rationale": "Se señala un trayecto muy fino de la matriz y no una laguna completa ni un canal vascular. Esa escala y la distribución radial corresponden a canalículos.",
+      "definition": "Son conductos microscópicos de la matriz que conectan las lagunas de los osteocitos entre sí y con superficies o conductos vasculares. En una preparación por desgaste aparecen como líneas finas que irradian desde las lagunas.",
+      "function": "Alojan las prolongaciones de los osteocitos y una pequeña cantidad de líquido intersticial. Facilitan el intercambio y la comunicación por uniones entre prolongaciones celulares. No transportan vasos sanguíneos de manera individual.",
+      "development": "Se establecen cuando los osteoblastos conservan prolongaciones al quedar incluidos en el osteoide y diferenciarse en osteocitos. La mineralización deja delimitado el sistema lacunocanalicular. La remodelación mantiene su conexión funcional con el suministro vascular.",
+      "distinction": "Una laguna es el pequeño espacio de mayor calibre que aloja el cuerpo celular. Un conducto de Havers o de Volkmann es mucho más ancho y puede contener vasos y nervios. Las laminillas son capas de matriz, no las finas líneas radiales.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 28, 34 y 36; G10, p. 3; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L16",
+    "number": 16,
+    "question": "Identifique la estructura en A",
+    "answer": "Ectodermo no neural",
+    "image": "/slides/lamina-16.jpeg",
+    "sourcePage": 32,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "El extremo rojo alcanza la lámina superior delgada situada a la derecha del pliegue neural. Se continúa lateralmente sobre las capas más profundas.",
+      "rationale": "La posición externa dorsal y la continuidad con el borde neural permiten reconocer ectodermo superficial. El endodermo está en el límite ventral del corte.",
+      "definition": "Es la hoja externa que recubre el embrión por fuera del territorio neural. En un corte temprano puede verse como una lámina epitelial delgada que se continúa con los bordes de los pliegues neurales.",
+      "function": "Origina la epidermis y sus anexos y participa en señales que influyen en tejidos subyacentes. En zonas concretas forma placodas sensitivas y la cresta ectodérmica apical de los miembros. El potencial de una región depende de su posición y de las interacciones con otros tejidos.",
+      "development": "Proviene de las células del epiblasto que permanecen en la superficie tras la gastrulación. En la región dorsal se distingue del neuroectodermo que forma placa y tubo neural. La epidermis es un derivado ectodérmico, mientras la dermis tiene orígenes mesenquimáticos dependientes de la región corporal.",
+      "distinction": "La lámina ventral asociada al saco vitelino corresponde al endodermo. Las células que quedan entre ambas hojas forman mesodermo. El amnios es una membrana extraembrionaria y no debe confundirse con el revestimiento del cuerpo embrionario.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "IMG, p. 14: misma lámina y rótulo ectodermo; C9, pp. 11 y 18; E11, pp. 3-5."
+    }
+  },
+  {
+    "id": "L17",
+    "number": 17,
+    "question": "Identifique la zona en A",
+    "answer": "Zona de hipertrofia",
+    "image": "/slides/lamina-17.jpeg",
+    "sourcePage": 34,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "La llave abarca columnas de lagunas mucho mayores que las del sector de reserva o proliferación. Hacia la derecha se aproxima el frente con trabéculas y espacios medulares.",
+      "rationale": "El aumento de tamaño de las lagunas y de los condrocitos es el criterio central para reconocer hipertrofia.",
+      "definition": "Es el sector de la placa de crecimiento en el que los condrocitos y sus lagunas aumentan de tamaño. Las columnas persisten, pero los tabiques de matriz entre las células se adelgazan.",
+      "function": "La hipertrofia contribuye al crecimiento longitudinal y prepara la matriz para su calcificación y posterior invasión vascular. Los condrocitos hipertróficos expresan, entre otras moléculas, colágeno X y VEGF. La secuencia permite que el tejido óseo se deposite después sobre restos de matriz calcificada.",
+      "development": "Forma parte de la osificación endocondral, que sustituye un molde de cartílago por hueso. La calcificación cartilaginosa y la formación de hueso son procesos relacionados pero distintos. El osteoide nuevo lo depositan osteoblastos sobre superficies disponibles.",
+      "distinction": "La zona proliferativa presenta células menores y más aplanadas. La de reserva muestra una distribución menos ordenada. La zona de invasión vascular incorpora vasos, células de resorción, trabéculas y médula en formación. En algunas clases hipertrofia y calcificación se presentan juntas.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 40-48, especialmente 47; G11, pp. 4-5; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L18",
+    "number": 18,
+    "question": "Señale 1 derivado de A",
+    "answer": "Esqueleto axial",
+    "image": "/slides/lamina-18.jpeg",
+    "sourcePage": 36,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La llave comprende la región celular ventromedial del somita, cercana a notocorda y aortas dorsales. Esa zona tiene un aspecto menos epitelial que el dominio dorsal.",
+      "rationale": "Primero se identifica esclerotoma. Como se solicita un derivado, una respuesta concreta es cuerpo vertebral; también pueden citarse componentes de costillas o anillo fibroso.",
+      "definition": "Es la región ventromedial del somita cuyos componentes adquieren un aspecto mesenquimático. Sus células se distribuyen alrededor de la notocorda y del tubo neural para formar componentes del esqueleto axial.",
+      "function": "Origina gran parte de las vértebras y costillas, y contribuye al anillo fibroso de los discos intervertebrales. La resegmentación reúne porciones de esclerotomas consecutivos en una vértebra y permite la relación entre columna, músculos segmentarios y nervios espinales.",
+      "development": "Se diferencia del mesodermo paraxial a través del somita. Señales ventrales, como SHH y nogina, favorecen su especificación. Es importante separar el anillo fibroso, de origen esclerotómico, del núcleo pulposo, relacionado con la notocorda.",
+      "distinction": "El dermomiotoma es la región epitelial dorsal y genera precursores dérmicos y musculares. El mesodermo intermedio se localiza más lateralmente. Los vasos grandes ventrales al somita no son una subdivisión somítica, aunque estén rodeados por sus células.",
+      "contrast": "La propuesta cuerpo vertebral es un ejemplo de esqueleto axial. La pauta exige el conjunto, por lo que se conserva su expresión literal.",
+      "sources": "E11, pp. 16-20; G11, p. 2; CAR, cap. 6, pp. 100-103 (PDF 115-118) y cap. 9, pp. 168-172 (PDF 183-187)."
+    }
+  },
+  {
+    "id": "L19",
+    "number": 19,
+    "question": "Identifique la estructura en A",
+    "answer": "Miotomo",
+    "image": "/slides/lamina-19.jpeg",
+    "sourcePage": 38,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La flecha se dirige a una porción del somita lateral al tubo neural. La subdivisión interna es sutil en esta micrografía. La pauta concreta el territorio señalado como miotomo, en vez del dominio más amplio dermomiotoma.",
+      "rationale": "El rótulo esperado es miotomo. El dermomiotoma es el precursor o dominio común que aporta precursores dérmicos y musculares; el miotomo corresponde al componente muscular que se pide identificar.",
+      "definition": "Es el componente miogénico del somita, derivado del dermomiotoma. Contiene precursores que darán origen a gran parte de la musculatura estriada esquelética del tronco y de los miembros.",
+      "function": "Aporta células musculares. Sus dominios epaxial e hipaxial contribuyen a grupos musculares diferentes; parte de los precursores migran hacia los esbozos de los miembros y después se diferencian.",
+      "development": "Procede del mesodermo paraxial segmentado en somitas. La clase describe la formación del dermomiotoma y su subdivisión en dermatoma y miotoma. Los mioblastos se diferencian y se fusionan para formar miotubos, que maduran como fibras musculares.",
+      "distinction": "El dermatoma se relaciona con la dermis; el miotomo, con músculo esquelético; y el esclerotoma, con componentes del esqueleto axial. Dermomiotoma es un término más amplio y no sustituye al rótulo específico solicitado por esta pauta.",
+      "contrast": "La propuesta anterior fue «Dermomiotoma, región dorsal del somita». Se sustituye por «Miotomo» y se actualiza la explicación.",
+      "sources": "E11, pp. 16-18 y 21-23; G11, p. 2; CAR, cap. 6, pp. 100-103 (PDF 115-118). Pauta del QUIZ 4, pregunta 29 del envío."
+    }
+  },
+  {
+    "id": "L20",
+    "number": 20,
+    "question": "Identifique la estructura en A",
+    "answer": "Banda A",
+    "image": "/slides/lamina-20.jpeg",
+    "sourcePage": 40,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "La línea horizontal termina sobre una franja oscura de la estriación transversal. La célula es larga y presenta núcleos periféricos, propios del músculo esquelético.",
+      "rationale": "La banda oscura corresponde a la región A. La imagen no muestra una unión entre dos células y no reúne el patrón de un disco intercalar.",
+      "definition": "Es la franja oscura que abarca toda la longitud de los filamentos gruesos de miosina. En sus regiones laterales hay superposición con actina. En el centro pueden reconocerse la banda H y la línea M con técnicas de mayor resolución.",
+      "function": "En ella se generan los puentes entre actina y miosina. Durante el acortamiento muscular aumenta el solapamiento entre filamentos, pero la anchura de la banda A permanece esencialmente constante. La banda I y la zona H disminuyen.",
+      "development": "Su aparición refleja la maduración del aparato contráctil durante la miogénesis. El músculo esquelético del tronco y de los miembros se vincula a los somitas y a sus precursores miogénicos. Los miotubos se llenan de miofibrillas y luego adquieren el aspecto de fibras multinucleadas con núcleos periféricos.",
+      "distinction": "La identificación exige seguir la periodicidad de las franjas. Una banda I es más clara y una línea Z es una línea fina. Un disco intercalar pertenece a una unión entre cardiomiocitos y aparece con una periodicidad diferente a la estriación sarcomérica.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 43 y 45-48; G10, p. 2; CAR, cap. 9, pp. 182-183 (PDF 197-198)."
+    }
+  },
+  {
+    "id": "L21",
+    "number": 21,
+    "question": "Señale 1 derivado de A",
+    "answer": "Sistema urogenital",
+    "image": "/slides/lamina-21.jpeg",
+    "sourcePage": 42,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "El extremo se sitúa en la transición entre el somita y el mesodermo lateral, junto al límite medial de la cavidad celómica. Se trata de la localización esperada del mesodermo intermedio.",
+      "rationale": "La pregunta pide un derivado. La respuesta urogenital debe vincularse a mesodermo intermedio y no al somita o a toda la hoja lateral.",
+      "definition": "Es la región mesodérmica situada entre el mesodermo paraxial y la placa lateral. En cortes de embriones animales puede reconocerse como una condensación o como estructuras nefrogénicas junto al límite medial del celoma.",
+      "function": "Forma gran parte del sistema urogenital, incluidos componentes renales y de las vías genitales. Para responder con un único derivado resulta apropiado indicar túbulos renales o nefronas, sin atribuirle todos los tejidos de todos los órganos urinarios.",
+      "development": "Después de la gastrulación, el mesodermo se regionaliza a lo largo del eje mediolateral. El mesodermo intermedio participa sucesivamente en sistemas nefrogénicos embrionarios. La interpretación de un corte de pollo debe reconocer homologías y evitar convertir sus horas de incubación en semanas humanas equivalentes.",
+      "distinction": "Los somitas están más cerca del tubo neural. La placa lateral se abre en dos hojas alrededor del celoma. La pared de un vaso y una luz celómica son estructuras distintas a un túbulo nefrogénico. La localización debe apoyar cualquier identificación de una pequeña condensación celular.",
+      "contrast": "Los túbulos renales son un ejemplo de derivados del mesodermo intermedio. La pauta utiliza el término general sistema urogenital.",
+      "sources": "E11, pp. 7-9; G11, p. 2; CAR, cap. 6, pp. 103-104 (PDF 118-119) y cap. 16."
+    }
+  },
+  {
+    "id": "L22",
+    "number": 22,
+    "question": "Identifique la célula en A",
+    "answer": "Osteoclasto",
+    "image": "/slides/lamina-22.jpeg",
+    "sourcePage": 44,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "La flecha señala una célula grande de citoplasma eosinófilo, situada sobre la superficie ósea. Se distinguen varios perfiles nucleares dentro del mismo volumen celular.",
+      "rationale": "La combinación de gran tamaño, multinucleación y contacto con la superficie favorece una célula de resorción ósea frente a una hilera osteoblástica.",
+      "definition": "Es una célula de resorción ósea grande y frecuentemente multinucleada. Se sitúa sobre superficies de hueso, a menudo en una depresión conocida como laguna de Howship.",
+      "function": "Acidifica el compartimento de resorción para disolver el mineral y libera enzimas que degradan la matriz orgánica. Su actividad permite remodelar hueso, formar cavidades y ajustar la arquitectura del esqueleto en crecimiento y en el adulto.",
+      "development": "Su linaje pertenece al sistema hematopoyético monocítico-macrofágico y se forma por fusión de precursores. Esta procedencia lo diferencia de los osteoblastos y osteocitos de origen mesenquimático. M-CSF y RANKL participan en su diferenciación y mantenimiento.",
+      "distinction": "Una hilera de células cúbicas pequeñas sugiere osteoblastos. Una célula incluida dentro de matriz sugiere osteocito. El tamaño, la multinucleación y el contacto con una superficie de resorción deben evaluarse juntos. Un espacio claro aislado no basta para diagnosticar actividad osteoclástica.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 29-30 y 37; G10, pp. 3-5; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L23",
+    "number": 23,
+    "question": "Identifique la estructura en A",
+    "answer": "Tubo neural",
+    "image": "/slides/lamina-23.jpeg",
+    "sourcePage": 46,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La llave rodea el rudimento neural dorsal con una luz central alargada. Debajo se reconoce la notocorda, más pequeña y maciza, y a los lados hay mesodermo.",
+      "rationale": "La pared epitelial que delimita el neurocele es la estructura solicitada. La notocorda queda fuera de la llave.",
+      "definition": "Es la estructura neuroepitelial que forma la pared del futuro sistema nervioso central. En corte transversal suele reconocerse como un epitelio grueso que rodea una luz, el neurocele.",
+      "function": "Origina encéfalo y médula espinal, con sus neuronas y la mayor parte de la glía del sistema nervioso central. Su luz participa en la formación de los ventrículos y del conducto central medular. También actúa como fuente de señales que organizan tejidos vecinos.",
+      "development": "Se forma a partir de la placa neural durante la neurulación. La placa se pliega y sus bordes se aproximan y fusionan. En el mismo embrión pueden coexistir niveles con surco abierto y otros con tubo cerrado, por lo que un único corte no fecha todo el desarrollo con precisión.",
+      "distinction": "La notocorda es una estructura pequeña, maciza y ventral al tubo. Los somitas se disponen a ambos lados. Si la hendidura comunica con la superficie dorsal, el corte muestra un surco neural todavía abierto y no debe describirse como un tubo completamente cerrado.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "C9, pp. 17-20 y 25; IMG, pp. 14-18; CAR, cap. 6, pp. 92-96 (PDF 107-111)."
+    }
+  },
+  {
+    "id": "L24",
+    "number": 24,
+    "question": "Identifique el tejido en A (tipo de tejido/clasificación)",
+    "answer": "Tejido conjuntivo laxo",
+    "image": "/slides/lamina-24.jpeg",
+    "sourcePage": 48,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "El extremo rojo queda en un espacio intersticial claro entre células con estriación y núcleos centrales. En esa banda se reconocen células conjuntivas y perfiles vasculares.",
+      "rationale": "Se pide la clasificación del tejido en A. La respuesta es conjuntivo laxo; endomisio nombra la organización de ese estroma alrededor de las células musculares.",
+      "definition": "Es el estroma conjuntivo delicado que se sitúa entre las células musculares. Contiene fibras finas, capilares y células conjuntivas. La lámina externa de cada miocito y el endomisio vecino son estructuras relacionadas, pero no idénticas.",
+      "function": "Sostiene la microvasculatura, permite intercambio de metabolitos y transmite parte de la fuerza entre células y componentes conjuntivos. Su organización fina facilita la proximidad entre los miocitos y los capilares.",
+      "development": "Los componentes conjuntivos se diferencian de mesénquima local, cuyo origen varía con la región. En esta imagen se observan cardiomiocitos, por lo que no corresponde explicar el tejido muscular de fondo como una fibra esquelética derivada del miotoma. El miocardio procede del mesodermo cardiogénico esplácnico.",
+      "distinction": "Si se pregunta por la clasificación del tejido señalado, la respuesta es tejido conjuntivo laxo. Si se pregunta por la envoltura, el término es endomisio. El perimisio es un tabique de mayor espesor que delimita fascículos y el epimisio rodea el músculo en su conjunto.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "G10, p. 2; H10, pp. 39-42; CAR, cap. 9, pp. 185 y 189-190 (PDF 200 y 204-205)."
+    }
+  },
+  {
+    "id": "L25",
+    "number": 25,
+    "question": "Identifique el tipo de osificación en A",
+    "answer": "Osificación membranosa",
+    "image": "/slides/lamina-25.jpeg",
+    "sourcePage": 50,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "En el corte de cabeza se observan trabéculas en la región mandibular, cercanas a un cartílago redondeado compatible con Meckel. El puntero alcanza la región de formación ósea lateral a ese cartílago.",
+      "rationale": "La relación anatómica y el patrón de espículas apoyan formación ósea en mesénquima. La proximidad a Meckel no basta para llamar endocondral al proceso.",
+      "definition": "Es la formación de hueso directamente en un tejido mesenquimático, sin que cada trabécula sustituya un molde cartilaginoso previo. Se reconocen espículas óseas, osteoblastos en superficie y tejido conjuntivo interpuesto.",
+      "function": "Permite construir partes de los huesos planos y gran parte de la mandíbula. Los osteoblastos depositan osteoide que después se mineraliza. Las espículas iniciales se conectan y su remodelación produce hueso maduro.",
+      "development": "En la mandíbula, la formación ósea ocurre en mesénquima próximo al cartílago de Meckel. La proximidad del cartílago no convierte el mecanismo en endocondral. Gran parte del mesénquima mandibular procede de la cresta neural craneal. Algunas regiones mandibulares presentan cartílagos secundarios, por lo que no se debe generalizar un único mecanismo a toda su historia.",
+      "distinction": "En la vía endocondral se reconocen un molde cartilaginoso y una secuencia de hipertrofia, calcificación e invasión. Aquí el criterio es el patrón de hueso en el mesénquima y su relación con Meckel. Una única trabécula aislada no siempre permite reconstruir el mecanismo completo.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 36-39: mandíbula y relación con Meckel; G11, p. 4; CAR, cap. 9, pp. 174-177 (PDF 189-192)."
+    }
+  },
+  {
+    "id": "L26",
+    "number": 26,
+    "question": "Identifique 1 señal molecular producida por A",
+    "answer": "BMP-4",
+    "image": "/slides/lamina-26.jpeg",
+    "sourcePage": 52,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La flecha alcanza el ectodermo no neural que recubre la región lateral del embrión. La pregunta solicita una señal molecular producida por A, no el nombre de la capa. La señal fijada por la pauta es BMP-4.",
+      "rationale": "La clase 11, p. 9, señala que el ectodermo que cubre el mesodermo lateral expresa BMP-4. La clase 9, p. 23, relaciona su inhibición con la inducción neural. Se sustituye WNT6 por la señal prevista en este control.",
+      "definition": "BMP-4 es la proteína morfogenética ósea 4, una molécula señalizadora del desarrollo. En este contexto se pregunta por su producción en el ectodermo no neural; la clase también describe expresión en el mesodermo lateral.",
+      "function": "Participa en la especificación de destinos celulares. La clase la presenta como una señal de lateralización del mesodermo. En el ectodermo, la inhibición de su actividad por antagonistas como noggin y cordina favorece la formación de neuroectodermo.",
+      "development": "La identidad del ectodermo y de los territorios mesodérmicos depende de señales entre tejidos durante gastrulación y neurulación. BMP-4 vincula el revestimiento ectodérmico con el patrón de los tejidos subyacentes; sus efectos dependen del contexto.",
+      "distinction": "WNT y BMP son familias de señales diferentes. Que una vía WNT participe en la somitogénesis no convierte WNT6 en la respuesta de esta pauta. Una tinción H-E permite reconocer el tejido, pero no demuestra por sí sola la expresión de la proteína.",
+      "contrast": "La respuesta prevista por este control es BMP-4. La clase también trata señales WNT en otros procesos; no deben intercambiarse las vías al responder esta lámina.",
+      "sources": "E11, p. 9 y pp. 15-16; C9, p. 23; CAR, caps. 4 y 6. Pauta del QUIZ 4, pregunta 30 del envío."
+    }
+  },
+  {
+    "id": "L27",
+    "number": 27,
+    "question": "Señale la disposición de las laminillas en A",
+    "answer": "Paralela",
+    "image": "/slides/lamina-27.jpeg",
+    "sourcePage": 54,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "La llave abarca el espesor de una trabécula entre dos espacios medulares. Las líneas de la matriz siguen aproximadamente la superficie trabecular.",
+      "rationale": "Se pregunta por la disposición de las laminillas. En esta trabécula corresponde paralelas, y no concéntricas alrededor de un conducto central.",
+      "definition": "Son capas de matriz ósea dispuestas de forma aproximadamente paralela a la superficie de una trabécula. La organización laminar caracteriza al hueso maduro y se aprecia junto con osteocitos en lagunas.",
+      "function": "La orientación de las capas y de sus fibras colágenas contribuye a soportar las cargas. La estructura trabecular mantiene amplios espacios para la médula y reduce el peso del esqueleto. El endostio reviste las superficies y participa en el recambio.",
+      "development": "El tejido óseo primario se reorganiza por remodelación hasta adquirir una disposición laminar. La arquitectura trabecular puede resultar de distintos mecanismos de osificación. No se deduce que un hueso fue endocondral solamente porque sus laminillas actuales sean paralelas.",
+      "distinction": "En una osteona las laminillas se disponen concéntricamente alrededor de un conducto de Havers. Entre osteonas hay laminillas intersticiales. El cartílago presenta matriz con lagunas, pero no muestra las laminillas óseas que se solicitan en esta lámina.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 17-18 y 34-36; G10, p. 3; E11, pp. 42 y 49."
+    }
+  },
+  {
+    "id": "L28",
+    "number": 28,
+    "question": "Identifique la estructura en A",
+    "answer": "Esbozo de miembro inferior",
+    "image": "/slides/lamina-28.jpeg",
+    "sourcePage": 56,
+    "topic": "Embriología",
+    "category": "Desarrollo de miembros",
+    "explanation": {
+      "reading": "La línea señala una pequeña protrusión lateral en la mitad caudal del embrión. En la región más craneal se reconoce otro brote mayor, compatible con el miembro superior.",
+      "rationale": "La posición caudal respecto del brote superior y su continuidad con el flanco identifican el esbozo del miembro inferior.",
+      "definition": "Es una protrusión lateral cubierta de ectodermo con un núcleo de mesénquima. El brote del miembro inferior aparece caudal al del miembro superior y madura con un pequeño desfase respecto de este.",
+      "function": "Constituye el territorio desde el que se forman muslo, pierna y pie. Su crecimiento requiere interacción entre el ectodermo y el mesénquima. Los ejes proximodistal, anteroposterior y dorsoventral se organizan mediante centros y señales específicos.",
+      "development": "El mesodermo lateral somático aporta la mayor parte del esqueleto y del tejido conjuntivo del miembro. Precursores miogénicos procedentes de somitas migran para formar su musculatura. El ectodermo recubre el brote y participa en la cresta ectodérmica apical. El miembro reúne aportes de varios linajes.",
+      "distinction": "La prominencia cardíaca es más craneal y ventral. La cola se continúa con el extremo caudal del eje corporal. Para distinguir un brote superior del inferior hay que orientarse con cabeza, región caudal y posición relativa, no sólo con su forma redondeada.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 24-31; G11, p. 3; AP, pp. 7-9; CAR, cap. 10, pp. 193-195 y 205-207 (PDF 208-210 y 220-222)."
+    }
+  },
+  {
+    "id": "L29",
+    "number": 29,
+    "question": "Identifique la estructura en A",
+    "answer": "Endodermo",
+    "image": "/slides/lamina-29.jpeg",
+    "sourcePage": 58,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La imagen muestra un disco temprano bajo la cavidad amniótica. La flecha llega a la lámina ventral delgada, por debajo del tejido mesenquimático y del epitelio dorsal más grueso.",
+      "rationale": "La relación con la superficie del saco vitelino favorece endodermo. El extremo está cerca de la interfaz con mesodermo y no debe desplazarse mentalmente hacia el centro de la placa neural.",
+      "definition": "Es la hoja epitelial ventral del embrión trilaminar, enfrentada inicialmente al saco vitelino. En un corte temprano suele ser una capa delgada ubicada por debajo del mesodermo y de los tejidos axiales.",
+      "function": "Origina el revestimiento epitelial de gran parte del tubo digestivo y del sistema respiratorio, así como el parénquima de glándulas asociadas como hígado y páncreas. La musculatura y gran parte del estroma de esas paredes proceden del mesodermo vecino.",
+      "development": "Se establece durante la gastrulación a partir de células del epiblasto que reemplazan al hipoblasto. El plegamiento incorpora una parte de esta hoja en un tubo intestinal. No se debe atribuir el origen de todo un órgano exclusivamente al endodermo cuando sus tejidos tienen aportes diferentes.",
+      "distinction": "El ectodermo recubre la superficie dorsal. Entre ambas hojas se sitúa mesodermo. En la línea media la placa notocordal puede estar transitoriamente relacionada con el endodermo y exige especial cuidado al interpretar cortes tempranos.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "C9, pp. 10-14 y 27-28; E11, pp. 3 y 6; IMG, pp. 12-17; CAR, cap. 6, pp. 107-110 (PDF 122-125)."
+    }
+  },
+  {
+    "id": "L30",
+    "number": 30,
+    "question": "Señale la principal función de A",
+    "answer": "Centro señalizador",
+    "image": "/slides/lamina-30.jpeg",
+    "sourcePage": 60,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "El extremo señala la estructura redondeada maciza ubicada por debajo del epitelio neural, en la línea media. Esa relación es característica de notocorda.",
+      "rationale": "Se pide su función principal. La respuesta central es su actividad como centro inductor y señalizador, especialmente para la organización neural y axial.",
+      "definition": "Es un cordón celular axial, macizo, situado ventral al tubo neural y dorsal al endodermo. En un corte transversal puede verse como una pequeña estructura redondeada en la línea media.",
+      "function": "Funciona como centro de señalización. SHH participa en la especificación ventral del tubo neural y del esclerotoma. Antagonistas de BMP y otras interacciones intervienen en la inducción y organización neural. Su función inductora tiene más relevancia que un simple sostén mecánico en el embrión humano.",
+      "development": "Deriva del mesodermo axial procedente de células que ingresan por el nodo primitivo. Durante su formación existe una fase de placa notocordal antes de constituirse el cordón definitivo. Sus restos contribuyen al núcleo pulposo de los discos intervertebrales, mientras los cuerpos vertebrales y el anillo fibroso se relacionan con el esclerotoma.",
+      "distinction": "El tubo neural tiene una luz y una pared neuroepitelial más grande. Las aortas dorsales son pares y contienen una luz vascular. La notocorda no debe rotularse como futura médula espinal ni como cuerpo vertebral.",
+      "contrast": "Centro señalizador resume la función notocordal. La inducción y organización descritas antes explican esa función con más detalle.",
+      "sources": "C9, pp. 15-17 y 23; E11, pp. 11 y 16; CAR, caps. 5-6, pp. 79-84 y 100-101 (PDF 94-99 y 115-116)."
+    }
+  },
+  {
+    "id": "L31",
+    "number": 31,
+    "question": "Identifique el tipo de cartílago en la imagen",
+    "answer": "Cartílago fibroso",
+    "image": "/slides/lamina-31.jpeg",
+    "sourcePage": 62,
+    "topic": "Histología",
+    "category": "Cartílago",
+    "explanation": {
+      "reading": "Se reconocen condrocitos en lagunas distribuidos en hileras entre haces de colágeno rosados. La matriz tiene un aspecto mucho más fibroso que la del cartílago hialino.",
+      "rationale": "La coexistencia de lagunas cartilaginosas y haces colágenos identifica fibrocartílago. Los núcleos redondeados en lagunas lo diferencian de un tendón típico.",
+      "definition": "Es un tejido cartilaginoso con condrocitos en lagunas intercalados entre haces colágenos evidentes. Las células suelen organizarse en hileras. Carece de un pericondrio típico.",
+      "function": "Resiste fuerzas combinadas de compresión y tracción. Se encuentra, entre otras localizaciones, en el anillo fibroso de discos intervertebrales, meniscos y sínfisis púbica. Su matriz contiene colágeno I abundante y una proporción variable de colágeno II según la región.",
+      "development": "Se desarrolla a partir de mesénquima y puede especializarse en regiones sometidas a tensiones. El anillo fibroso de un disco se vincula al esclerotoma, mientras el núcleo pulposo tiene relación notocordal. El rótulo histológico por sí solo no identifica la localización anatómica exacta de toda muestra.",
+      "distinction": "Un tendón posee haces colágenos y núcleos alargados, pero no los condrocitos redondeados en lagunas característicos del fibrocartílago. El hialino tiene una matriz más homogénea y el elástico muestra una red de fibras elásticas.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 11-12; G10, pp. 5-6; E11, pp. 18-19; CAR, cap. 9, pp. 168-172 (PDF 183-187)."
+    }
+  },
+  {
+    "id": "L32",
+    "number": 32,
+    "question": "Identifique la estructura en A",
+    "answer": "Hernia umbilical fisiológica",
+    "image": "/slides/lamina-32.jpeg",
+    "sourcePage": 64,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "La llave rodea una protrusión umbilical que contiene múltiples perfiles de asas intestinales, comunicada con la región ventral del embrión. La foto adjunta muestra el nivel del corte.",
+      "rationale": "La presencia de asas dentro del cordón en un contexto embrionario sostiene el rótulo fisiológico. Su clasificación como anomalía exigiría conocer una edad posterior al retorno normal.",
+      "definition": "Es la protrusión transitoria de asas del intestino medio hacia el celoma extraembrionario del cordón. En el corte puede verse un conjunto de asas dentro de una prolongación umbilical del cuerpo.",
+      "function": "Permite alojar temporalmente el intestino en rápido crecimiento mientras la cavidad abdominal aumenta su capacidad. El intestino realiza movimientos de rotación y después retorna al abdomen. La herniación fisiológica comienza alrededor de la sexta semana y el retorno ocurre hacia la décima.",
+      "development": "La pared intestinal combina epitelio endodérmico con componentes mesodérmicos. El fenómeno se integra con el plegamiento corporal, la formación del cordón y el crecimiento del intestino medio. Su presencia aislada durante la etapa embrionaria no demuestra una malformación.",
+      "distinction": "El onfalocele implica persistencia patológica de vísceras en la base del cordón después del retorno esperado. Una hernia umbilical congénita tiene otro mecanismo. Para distinguir normalidad y anomalía se necesita conocer la edad y las cubiertas de la protrusión.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "AP, pp. 8-10; E11, p. 6; CAR, cap. 15, pp. 344-350 (PDF 359-365)."
+    }
+  },
+  {
+    "id": "L33",
+    "number": 33,
+    "question": "Señale el periodo del desarrollo (en semanas) del embrión en esta imagen",
+    "answer": "3 semanas",
+    "image": "/slides/lamina-33.jpeg",
+    "sourcePage": 66,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "La vista dorsal muestra una región neural cefálica ancha y una placa o surco longitudinal todavía abierto. No presenta el aspecto de miembros segmentados ni la configuración externa de semanas posteriores.",
+      "rationale": "El conjunto es compatible con neurulación temprana en la tercera semana. No hay escala ni recuento de somitas que permitan fijar un día preciso.",
+      "definition": "Corresponde a un embrión temprano con placa o surco neural y con una organización corporal todavía muy distinta de la forma fetal. En una vista dorsal la región neural cefálica puede ser ancha y el extremo caudal conservar territorio de gastrulación.",
+      "function": "Durante esta etapa se establecen tejidos y ejes básicos que permiten la organogénesis. La gastrulación produce las hojas germinales y la neurulación inicia la formación del sistema nervioso central. La imagen identifica un conjunto de procesos, no la función de una sola estructura.",
+      "development": "La clase sitúa el inicio de la gastrulación alrededor del día 15 y la placa neural cerca del día 18. Los primeros somitas aparecen aproximadamente hacia el día 20. Estos intervalos son orientativos. El desarrollo progresa en sentido craneocaudal y diferentes regiones pueden mostrar estados distintos.",
+      "distinction": "Una fotografía sin escala, número de somitas ni identificación del espécimen no permite decidir un día exacto. Un embrión de cuatro o cinco semanas tiene una flexión corporal y prominencias externas más definidas. La edad embrionaria se cuenta desde fecundación, no desde la última menstruación.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "C9, pp. 7-19; E11, pp. 2 y 12-13; AP, pp. 2 y 5; CAR, cap. 6, pp. 92-99 (PDF 107-114)."
+    }
+  },
+  {
+    "id": "L34",
+    "number": 34,
+    "question": "Señale 1 derivado de A",
+    "answer": "Músculo estriado esquelético",
+    "image": "/slides/lamina-34.jpeg",
+    "sourcePage": 68,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La línea se dirige a la región dorsal del somita, próxima al tubo neural y por encima de la población mesenquimática ventral. El territorio corresponde al dominio dermomiotómico.",
+      "rationale": "La pauta acepta músculo estriado esquelético. La región somítica señalada se relaciona con el territorio miogénico: el miotomo aporta precursores musculares y explica el derivado solicitado.",
+      "definition": "La estructura de referencia es la región miogénica del somita, relacionada con el miotomo. El derivado que se pide nombrar es músculo estriado esquelético. El dermomiotoma es un precursor más amplio que también se relaciona con el dermatoma.",
+      "function": "El territorio miogénico aporta células para la musculatura esquelética. En el tronco, los dominios epaxial e hipaxial contribuyen a grupos distintos; parte de los precursores se desplazan hacia los esbozos de los miembros.",
+      "development": "El mesodermo paraxial forma somitas. De su dominio dorsal se generan precursores del miotomo; los mioblastos se diferencian y se fusionan en miotubos, que acumulan miofibrillas y maduran como fibras musculares esqueléticas.",
+      "distinction": "Para este derivado se relaciona miotomo con músculo esquelético, dermatoma con dermis y esclerotoma con esqueleto axial. La pauta confirma el derivado muscular, sin convertir todos los derivados del dominio somítico dorsal en músculo.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "E11, pp. 16-18 y 21-23; G11, p. 2; CAR, cap. 6, pp. 100-103 (PDF 115-118). Pauta del QUIZ 4, pregunta 26 del envío."
+    }
+  },
+  {
+    "id": "L35",
+    "number": 35,
+    "question": "Identifique la célula en A",
+    "answer": "Fibroblasto",
+    "image": "/slides/lamina-35.jpeg",
+    "sourcePage": 70,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "La flecha alcanza un núcleo alargado entre fibras de un tejido conjuntivo que rodea al músculo. La célula no se encuentra dentro de la fibra muscular ni delimita una luz vascular visible.",
+      "rationale": "La morfología fusiforme y la localización entre haces de matriz favorecen fibroblasto. La foto no permite determinar de forma absoluta su grado de actividad secretora.",
+      "definition": "Es una célula conjuntiva productora de matriz extracelular. En preparaciones habituales suele reconocerse por un núcleo alargado o fusiforme situado entre haces colágenos, con poco citoplasma visible.",
+      "function": "Sintetiza colágenos, otros componentes de la matriz y moléculas que regulan la organización del tejido. Participa en sostén, reparación y mantenimiento de envolturas conjuntivas. En un estado menos activo puede tener un núcleo más delgado y una actividad secretora reducida.",
+      "development": "Se diferencia de mesénquima. El origen de ese mesénquima depende de la región del cuerpo y puede incluir aportes mesodérmicos o de cresta neural craneal. En el músculo, el tejido conjuntivo se organiza de manera coordinada con las fibras musculares, los vasos y los nervios.",
+      "distinction": "Un núcleo muscular pertenece al interior de una célula muscular. Un núcleo endotelial se asocia al revestimiento de una luz vascular. Aquí la relación con fibras colágenas y la ausencia de una luz identificable favorecen el rótulo conjuntivo, sin poder demostrar su estado funcional sólo por el núcleo.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 5, 20 y 39-42; G10, p. 2; CAR, cap. 9, pp. 159-160 y 185 (PDF 174-175 y 200)."
+    }
+  },
+  {
+    "id": "L36",
+    "number": 36,
+    "question": "Identifique el tipo de matriz en A",
+    "answer": "Matriz territorial",
+    "image": "/slides/lamina-36.jpeg",
+    "sourcePage": 72,
+    "topic": "Histología",
+    "category": "Cartílago",
+    "explanation": {
+      "reading": "El puntero termina en el halo de matriz intensamente violeta que rodea al pequeño grupo de condrocitos. El área queda fuera de los espacios lagunares y se diferencia del fondo más claro.",
+      "rationale": "El halo que integra el territorio celular favorece matriz territorial. La proximidad a las lagunas requiere distinguirla de la banda capsular más inmediata.",
+      "definition": "Es la matriz que rodea a un condrocito o a un grupo isógeno. Forma un territorio de tinción más intensa que contrasta con las zonas interterritoriales.",
+      "function": "Su composición rica en proteoglucanos contribuye a retener agua y a distribuir las cargas alrededor de las células. La tinción más basófila refleja la abundancia de grupos aniónicos de los glucosaminoglucanos, aunque la intensidad también depende del procesamiento de la muestra.",
+      "development": "La formación de grupos isógenos comienza con divisiones de condrocitos ya incluidos en la matriz. Sus descendientes producen nueva matriz y participan en el crecimiento intersticial. El crecimiento por aposición incorpora condroblastos desde el pericondrio cuando este está presente.",
+      "distinction": "La matriz capsular es la franja más inmediata a la laguna. En una imagen de resolución limitada, ambas zonas pueden confundirse. Para llamar territorial al área señalada debe rodear al conjunto celular y no limitarse al borde de una única laguna.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 7-8 y 12; G10, p. 5; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L37",
+    "number": 37,
+    "question": "Identifique la estructura en A",
+    "answer": "Mesodermo lateral somático",
+    "image": "/slides/lamina-37.jpeg",
+    "sourcePage": 74,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La flecha termina en la hoja mesodérmica superior de la placa lateral, inmediatamente ventral al ectodermo y dorsal a la cavidad celómica. El tejido neural y los somitas están más mediales.",
+      "rationale": "Se señala una hoja mesodérmica y no todo el pliegue de dos hojas. Por eso se utiliza mesodermo somático, reservando somatopleura para su asociación con ectodermo.",
+      "definition": "Es la hoja dorsal o parietal de la placa lateral, situada junto al ectodermo y por fuera del celoma intraembrionario. Su asociación con el ectodermo constituye la somatopleura.",
+      "function": "Aporta componentes de la pared corporal y gran parte del tejido conjuntivo y esqueleto de los miembros. También participa en revestimientos parietales de cavidades corporales. Su contribución al miembro se combina con músculo derivado de somitas y con el ectodermo de superficie.",
+      "development": "El mesodermo lateral se separa en dos hojas al formarse el celoma. La posición somática o esplácnica se determina por su relación con ectodermo o endodermo, respectivamente. El plegamiento lateral cambia su orientación sin alterar esos vínculos tisulares.",
+      "distinction": "La somatopleura incluye dos hojas y el mesodermo somático sólo una de ellas. La hoja esplácnica queda en la cara visceral del celoma. El mesodermo intermedio está más cerca del somita y se relaciona con el sistema urogenital.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, p. 9: micrografía con mesodermo lateral somático; G11, p. 2; CAR, cap. 6, p. 104 (PDF 119)."
+    }
+  },
+  {
+    "id": "L38",
+    "number": 38,
+    "question": "Señale el periodo del desarrollo (semanas) del embrión en esta imagen",
+    "answer": "7 semanas",
+    "image": "/slides/lamina-38.jpeg",
+    "sourcePage": 76,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "La cabeza es muy prominente, el miembro superior presenta una placa distal con relieves digitales y el inferior conserva una expansión menos diferenciada. El tronco está curvado y los somitas externos son poco evidentes.",
+      "rationale": "La pauta fija 7 semanas. La propuesta anterior de 6-7 semanas se precisa con ese dato docente. Los rasgos externos ayudan a situar la etapa, aunque una fotografía sin escala no permite fechar de forma independiente un espécimen con exactitud.",
+      "definition": "En esta etapa los miembros ya muestran placas distales y pueden aparecer rayos digitales. La cabeza es prominente, la cara está en formación y los somitas externos son menos evidentes que en etapas anteriores.",
+      "function": "El análisis de edad combina rasgos de varios sistemas, especialmente cabeza, oído y miembros. Un único rasgo, como la pigmentación ocular o una prominencia abdominal, no fija una semana por sí solo.",
+      "development": "La cápsula de apariencia externa relaciona la sexta semana con placas de mano, rayos digitales y herniación umbilical fisiológica. La séptima muestra mayor segmentación de miembros e inicio de separación digital. Existe variación entre especímenes y entre las cronologías usadas por diferentes fuentes.",
+      "distinction": "Una edad de seis a siete semanas puede ser defendible por morfología, pero exige marcar la inferencia si no se dispone de escala o estadio Carnegie. La edad gestacional clínica suele ser aproximadamente dos semanas mayor que la edad desde fecundación. La fotografía no permite medir ese intervalo.",
+      "contrast": "La pauta fija 7 semanas y precisa el intervalo previo de 6-7. La edad se atribuye a la pauta docente.",
+      "sources": "AP, pp. 8-10; E11, pp. 24-30; CAR, cap. 10 y tabla de estadios (PDF 12). Pauta del QUIZ 4, pregunta 21 del envío."
+    }
+  },
+  {
+    "id": "L39",
+    "number": 39,
+    "question": "Identifique la estructura en A",
+    "answer": "Mesodermo lateral esplácnico",
+    "image": "/slides/lamina-39.jpeg",
+    "sourcePage": 78,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La flecha se dirige a la hoja mesodérmica de la pared ventral del celoma lateral, próxima al endodermo. El extremo debe leerse sobre el mesodermo visceral adyacente y no sobre la lámina epitelial endodérmica.",
+      "rationale": "La pauta identifica mesodermo lateral esplácnico. Su posición junto al endodermo y ventral al celoma concuerda con la hoja visceral descrita en la clase 11. La identificación anterior como endodermo se corrige.",
+      "definition": "Es la hoja visceral o esplácnica del mesodermo lateral. Se ubica en contacto con el endodermo y, asociada con él, forma la esplacnopleura. Es un territorio mesodérmico, no una subdivisión del endodermo.",
+      "function": "Aporta tejido conjuntivo y musculatura de paredes viscerales, entre ellas las del tubo digestivo y del sistema respiratorio. El mesodermo esplácnico cardiogénico contribuye al desarrollo del corazón.",
+      "development": "El mesodermo intraembrionario procede de células del epiblasto que ingresan durante gastrulación. El mesodermo lateral se separa en hojas somática y esplácnica por la formación del celoma. Con el plegamiento, la hoja visceral acompaña al intestino primitivo.",
+      "distinction": "El endodermo origina el revestimiento epitelial de gran parte del intestino; el mesodermo esplácnico, gran parte del conjuntivo y de la musculatura de su pared. La hoja somática queda hacia el ectodermo y participa en pared corporal y miembros.",
+      "contrast": "La propuesta anterior fue «Endodermo intraembrionario». Se sustituye por «Mesodermo lateral esplácnico» y se actualiza la explicación.",
+      "sources": "E11, pp. 9-10; C9, pp. 11-14; CAR, cap. 6, pp. 103-110 (PDF 118-125). Pauta del QUIZ 4, pregunta 32 del envío."
+    }
+  },
+  {
+    "id": "L40",
+    "number": 40,
+    "question": "Identifique la estructura en A",
+    "answer": "Zona de actividad polarizante",
+    "image": "/slides/lamina-40.jpeg",
+    "sourcePage": 80,
+    "topic": "Embriología",
+    "category": "Desarrollo de miembros",
+    "explanation": {
+      "reading": "El extremo se sitúa en el mesénquima del brote del miembro, cerca de su base posterior según la identificación docente. La pauta asigna esa región a la zona de actividad polarizante. La micrografía no demuestra por sí sola una frontera de expresión molecular.",
+      "rationale": "La respuesta es zona de actividad polarizante, ZAP o ZPA. Se corrige la región de progreso propuesta antes: la ZAP es un centro posterior que organiza el eje anteroposterior, mientras el mesénquima distal bajo la cresta apical se relaciona con el crecimiento proximodistal.",
+      "definition": "Es una región señalizadora del mesénquima posterior del esbozo del miembro. Produce Sonic hedgehog, SHH, y participa en la organización anteroposterior del miembro.",
+      "function": "Regula el patrón anteroposterior y la identidad de los futuros dedos mediante la señal SHH. Se coordina con otros centros del brote, incluida la cresta ectodérmica apical.",
+      "development": "Se establece dentro del mesénquima del miembro, cuyo componente conjuntivo y esquelético deriva principalmente del mesodermo lateral somático. La señalización de la ZAP contribuye a organizar territorios antes de que se individualicen las estructuras definitivas.",
+      "distinction": "La ZAP se localiza en el mesénquima posterior y se asocia con SHH. La cresta ectodérmica apical es epitelio distal y secreta FGF. La región de progreso corresponde al mesénquima distal relacionado con el crecimiento, y no equivale a la ZAP.",
+      "contrast": "La propuesta anterior fue «Mesénquima distal del brote del miembro, región de progreso». Se sustituye por «Zona de actividad polarizante» y se actualiza la explicación.",
+      "sources": "E11, pp. 26-28, especialmente p. 27; G11, p. 3; CAR, cap. 10, pp. 194-199 (PDF 209-214). Pauta del QUIZ 4, pregunta 20 del envío."
+    }
+  },
+  {
+    "id": "L41",
+    "number": 41,
+    "question": "Identifique la zona en A",
+    "answer": "Zona de reserva",
+    "image": "/slides/lamina-41.jpeg",
+    "sourcePage": 82,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "La flecha se dirige al sector superior de la placa, donde las células son pequeñas y están más dispersas. Las columnas y las lagunas grandes aparecen hacia la región inferior.",
+      "rationale": "La ausencia de columnas bien alineadas y la posición previa al territorio proliferativo identifican cartílago de reserva.",
+      "definition": "Es el territorio de la placa de crecimiento con condrocitos pequeños y dispersos dentro de matriz cartilaginosa, sin las columnas alineadas tan características de la zona proliferativa.",
+      "function": "Mantiene una población cartilaginosa de recambio lento y participa en la continuidad de la placa. A medida que progresa el crecimiento, las células entran en programas de proliferación y maduración que se reflejan en las zonas sucesivas.",
+      "development": "La placa de crecimiento persiste entre epífisis y metáfisis durante el desarrollo y la vida posnatal. Forma parte del mecanismo endocondral. Tras su cierre, el crecimiento longitudinal por esta vía termina y queda una línea epifisaria.",
+      "distinction": "Para distinguirla de la zona proliferativa hay que buscar ausencia de columnas organizadas. La hipertrófica contiene lagunas mucho mayores. La posición epifisaria y la continuidad con el resto de la placa refuerzan el diagnóstico frente a un fragmento aislado de cartílago hialino.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 45-49; G11, pp. 4-5; H10, pp. 8 y 12."
+    }
+  },
+  {
+    "id": "L42",
+    "number": 42,
+    "question": "Identifique el tipo de osificación en la imagen",
+    "answer": "Osificación endocondral",
+    "image": "/slides/lamina-42.jpeg",
+    "sourcePage": 84,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "Se ve un gran territorio cartilaginoso superior y un frente inferior con columnas, matriz calcificada y trabéculas en formación. El patrón tiene una dirección de progresión reconocible.",
+      "rationale": "La secuencia organizada de cartílago a hueso constituye el criterio de la vía endocondral. No corresponde a espículas formadas directamente en mesénquima.",
+      "definition": "Es la formación de hueso a partir de un modelo cartilaginoso. Incluye maduración de condrocitos, calcificación de matriz cartilaginosa, invasión vascular, resorción y depósito de osteoide sobre superficies disponibles.",
+      "function": "Construye gran parte del esqueleto y permite el crecimiento longitudinal de los huesos largos. Los centros de osificación se expanden y las placas de crecimiento mantienen la producción de cartílago mientras se sustituye por tejido óseo en la vertiente metafisaria.",
+      "development": "Comienza con una condensación mesenquimática que forma cartílago hialino. El collar óseo periférico se produce por un mecanismo aposicional de tipo intramembranoso y coexiste con la sustitución endocondral del interior. La presencia de ese collar no cambia la clasificación global del proceso.",
+      "distinction": "Cartílago calcificado no es sinónimo de hueso. El hueso requiere matriz osteoide y actividad osteoblástica. La osificación intramembranosa se desarrolla directamente en mesénquima y no muestra la sucesión de zonas cartilaginosas característica de una placa endocondral.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "E11, pp. 33 y 40-49; G11, pp. 4-5; CAR, cap. 9, pp. 165-168 (PDF 180-183)."
+    }
+  },
+  {
+    "id": "L43",
+    "number": 43,
+    "question": "Identifique la estructura en A",
+    "answer": "Línea Z",
+    "image": "/slides/lamina-43.jpeg",
+    "sourcePage": 86,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "Se observan fibras estriadas longitudinales con núcleos periféricos. La pauta ubica la flecha en una línea transversal fina del sarcómero, la línea Z. La resolución y el grosor del puntero dificultan separarla visualmente de la banda I vecina.",
+      "rationale": "El rótulo final es línea Z. Es un elemento estrecho que se encuentra en la banda I; identificar toda la franja clara como banda I no responde al punto específico que fijó la pauta.",
+      "definition": "Es el límite estructural entre sarcómeros consecutivos y una región de anclaje para los filamentos finos. En la estriación se reconoce como una línea transversal estrecha dentro de la banda I.",
+      "function": "Mantiene la organización de las miofibrillas y permite transmitir la tensión generada por la interacción actina-miosina. Durante la contracción disminuye la distancia entre líneas Z consecutivas, es decir, la longitud del sarcómero.",
+      "development": "La estriación aparece cuando las proteínas contráctiles se ensamblan y sus sarcómeros se alinean. En la histogénesis esquelética, mioblastos se fusionan para formar miotubos. Al madurar, estos acumulan miofibrillas y sus núcleos se desplazan hacia la periferia. La organización sarcomérica también existe en el músculo cardíaco.",
+      "distinction": "La línea Z es una línea, no una banda completa. La banda I es la región clara que atraviesa; la banda A corresponde a la longitud de los filamentos gruesos. El sarcómero se extiende de una línea Z a la siguiente.",
+      "contrast": "La propuesta anterior fue «Banda I, interpretación probable del extremo». Se sustituye por «Línea Z» y se actualiza la explicación.",
+      "sources": "H10, pp. 45-48, especialmente p. 46; G10, p. 2; CAR, cap. 9, pp. 182-183 (PDF 197-198). Pauta del QUIZ 4, pregunta 49 del envío."
+    }
+  },
+  {
+    "id": "L44",
+    "number": 44,
+    "question": "Identifique la estructura en A",
+    "answer": "Segundo arco faríngeo",
+    "image": "/slides/lamina-44.jpeg",
+    "sourcePage": 88,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "La flecha se dirige a una prominencia redondeada de la región faríngea, caudal al territorio mandibular más craneal. Quedan surcos y prominencias menores hacia la región más caudal.",
+      "rationale": "La estructura es un arco y no la hendidura interpuesta. Por su relación con el primer arco, la asignación más probable es segundo arco.",
+      "definition": "Es el arco hioideo, una prominencia de la región faríngea situada caudal al primer arco. Cada arco contiene mesénquima, un componente arterial y un nervio relacionado, entre revestimientos ectodérmico y endodérmico.",
+      "function": "Su mesénquima participa en el desarrollo de estructuras de cabeza y cuello. Entre sus derivados musculares se encuentran músculos de la expresión facial, relacionados con el nervio facial. El componente cartilaginoso se conoce como cartílago de Reichert.",
+      "development": "Los arcos se forman durante las primeras semanas de organogénesis e integran aportes de mesodermo y cresta neural. La numeración se decide por posición craneocaudal. La presencia de un arco en la superficie no permite observar todos sus componentes internos en la fotografía.",
+      "distinction": "Una hendidura faríngea es la depresión entre arcos. El primer arco es más craneal y origina prominencias maxilar y mandibular. Si la fotografía no permite numerar con seguridad, arco faríngeo es la identificación general y segundo arco debe conservarse como asignación probable.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "AP, pp. 6-7; CAR, cap. 14, pp. 294-296 y 321-323 (PDF 309-311 y 336-338)."
+    }
+  },
+  {
+    "id": "L45",
+    "number": 45,
+    "question": "Señale el periodo embrionario del desarrollo (en semanas) del embrión en esta imagen",
+    "answer": "6 semanas",
+    "image": "/slides/lamina-45.jpeg",
+    "sourcePage": 90,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "La fotografía muestra ojo pigmentado, cabeza prominente y miembros con expansiones distales todavía poco separadas. No se distinguen dedos completamente independientes.",
+      "rationale": "El conjunto favorece una etapa cercana a sexta semana. La pigmentación ocular aislada no basta para decidir la semana y falta escala para aplicar longitud vértice-nalgas.",
+      "definition": "En esta etapa los miembros ya muestran placas distales y pueden aparecer rayos digitales. La cabeza es prominente, la cara está en formación y los somitas externos son menos evidentes que en etapas anteriores.",
+      "function": "El análisis de edad combina rasgos de varios sistemas, especialmente cabeza, oído y miembros. Un único rasgo, como la pigmentación ocular o una prominencia abdominal, no fija una semana por sí solo.",
+      "development": "La cápsula de apariencia externa relaciona la sexta semana con placas de mano, rayos digitales y herniación umbilical fisiológica. La séptima muestra mayor segmentación de miembros e inicio de separación digital. Existe variación entre especímenes y entre las cronologías usadas por diferentes fuentes.",
+      "distinction": "Una edad de seis a siete semanas puede ser defendible por morfología, pero exige marcar la inferencia si no se dispone de escala o estadio Carnegie. La edad gestacional clínica suele ser aproximadamente dos semanas mayor que la edad desde fecundación. La fotografía no permite medir ese intervalo.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "AP, pp. 2 y 7-10; E11, pp. 24-30; G11, pp. 6-8; CAR, cap. 10, pp. 193-205 (PDF 208-220)."
+    }
+  },
+  {
+    "id": "L46",
+    "number": 46,
+    "question": "Identifique el principal tipo de colágeno en A",
+    "answer": "Colágeno tipo II",
+    "image": "/slides/lamina-46.jpeg",
+    "sourcePage": 92,
+    "topic": "Histología",
+    "category": "Cartílago",
+    "explanation": {
+      "reading": "El extremo se sitúa dentro de la matriz cartilaginosa violeta que contiene condrocitos en lagunas. No alcanza el pericondrio rosado periférico.",
+      "rationale": "Reconocido el cartílago hialino, el principal colágeno de la matriz señalada es II. La localización evita confundirlo con el colágeno I del pericondrio.",
+      "definition": "Es el principal colágeno fibrilar del cartílago hialino y también de la matriz cartilaginosa del cartílago elástico. Su identificación en esta pregunta se infiere del tipo de tejido señalado, no de la visualización de una molécula individual.",
+      "function": "Forma una red que contribuye a la resistencia tensil de la matriz y contiene la expansión de los proteoglucanos hidratados. El comportamiento mecánico del cartílago depende de la combinación de fibrillas, proteoglucanos y agua, no de un único componente.",
+      "development": "Su síntesis acompaña la diferenciación de condroblastos y condrocitos. Los modelos cartilaginosos del esqueleto endocondral expresan una matriz cartilaginosa que luego madura y se sustituye en las zonas de osificación. Los condrocitos hipertróficos incorporan además colágeno X como marcador de su programa de maduración.",
+      "distinction": "El colágeno I predomina en hueso y en haces del fibrocartílago. El pericondrio fibroso también contiene colágeno I. Una flecha dentro de la matriz hialina requiere una respuesta distinta a otra situada en el pericondrio.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "H10, pp. 5 y 8-12; G10, pp. 5-6; E11, pp. 40 y 47; CAR, cap. 9, p. 176 (PDF 191)."
+    }
+  },
+  {
+    "id": "L47",
+    "number": 47,
+    "question": "Identifique la estructura en A",
+    "answer": "Somito",
+    "image": "/slides/lamina-47.jpeg",
+    "sourcePage": 94,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La llave delimita una masa mesodérmica a un lado del rudimento neural. No abarca el tubo neural ni la capa lateral que forma el borde de la cavidad celómica.",
+      "rationale": "La posición paraxial y el volumen completo delimitado permiten identificar un somita. Para nombrar una subdivisión habría que restringir la llave al dominio correspondiente.",
+      "definition": "Es una unidad segmentaria par del mesodermo paraxial, situada a cada lado del tubo neural y de la notocorda. Durante su maduración presenta dominios epiteliales y regiones mesenquimáticas.",
+      "function": "Organiza una parte importante de la segmentación del tronco. Sus subdivisiones aportan precursores del esqueleto axial, musculatura esquelética y dermis dorsal. La relación entre esos derivados explica la coordinación entre vértebras, músculos y nervios segmentarios.",
+      "development": "Se forma por segmentación progresiva del mesodermo presomítico en sentido craneocaudal. El reloj de segmentación y gradientes de señales coordinan el proceso. La clase sitúa el primer par alrededor del día 20 y describe la diferenciación en esclerotoma y dermomiotoma.",
+      "distinction": "El mesodermo intermedio queda lateral al somita y tiene destinos urogenitales. El tubo neural ocupa la línea media dorsal. Para rotular todo un somita conviene que la llave abarque la masa completa y no sólo una de sus subdivisiones.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 7 y 12-19; G11, p. 2; CAR, cap. 6, pp. 98-103 (PDF 113-118)."
+    }
+  },
+  {
+    "id": "L48",
+    "number": 48,
+    "question": "Identifique la estructura en A",
+    "answer": "Conducto de Volkmann",
+    "image": "/slides/lamina-48.jpeg",
+    "sourcePage": 96,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "El puntero llega a un canal alargado que discurre oblicuamente y conecta territorios osteonales. No está centrado en un único conjunto de laminillas concéntricas.",
+      "rationale": "El trayecto perforante y la falta de una osteona propia favorecen Volkmann frente a Havers. Su calibre excluye un canalículo osteocitario.",
+      "definition": "Es un conducto perforante que comunica canales vasculares del hueso y puede conectar sistemas de Havers con las superficies periósticas o endósticas. Suele seguir una orientación transversal u oblicua respecto del eje de las osteonas.",
+      "function": "Permite el paso de vasos y nervios y conecta rutas de irrigación dentro del hueso compacto. No está rodeado por un sistema propio de laminillas concéntricas como el conducto central de una osteona.",
+      "development": "Su organización se integra con la vascularización y la remodelación del tejido óseo. El hueso maduro reorganiza sus laminillas alrededor de rutas vasculares y conserva conexiones entre conductos. Su presencia no permite inferir un único mecanismo de osificación embrionaria.",
+      "distinction": "El conducto de Havers ocupa el centro de una osteona. Los canalículos son mucho más finos y conectan lagunas. En un corte por desgaste no se observan necesariamente los vasos, porque la preparación conserva sobre todo la matriz y sus espacios.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 34-35; G10, p. 3; E11, pp. 43-49."
+    }
+  },
+  {
+    "id": "L49",
+    "number": 49,
+    "question": "Identifique la célula en A",
+    "answer": "Osteoblasto",
+    "image": "/slides/lamina-49.jpeg",
+    "sourcePage": 98,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "La línea se dirige a una célula de la hilera que recubre la superficie de una trabécula. El tejido muestra matriz con osteocitos incluidos y espacios conjuntivos entre trabéculas.",
+      "rationale": "La célula superficial formadora de matriz corresponde a osteoblasto. El núcleo de un osteocito se buscaría dentro de la matriz ya depositada.",
+      "definition": "Es la célula formadora de matriz ósea. Cuando está activa suele ser cúbica, con citoplasma basófilo, y se dispone en hilera sobre una superficie donde se está depositando osteoide.",
+      "function": "Sintetiza colágeno I y proteínas de la matriz orgánica, y participa en la mineralización. También interviene en la regulación del remodelado y de la diferenciación osteoclástica mediante señales como RANKL. Parte de los osteoblastos queda incluida en la matriz y se convierte en osteocitos.",
+      "development": "Deriva de células osteoprogenitoras mesenquimáticas. Su diferenciación se relaciona con reguladores como RUNX2. Participa tanto en osificación intramembranosa como endocondral. En ambos casos el hueso requiere osteoblastos, aunque en la segunda vía exista un molde cartilaginoso previo.",
+      "distinction": "El osteocito ya está rodeado por matriz. El osteoclasto es grande y multinucleado, y resorbe hueso. Una célula de revestimiento inactiva es más aplanada que el osteoblasto secretor. La relación con la superficie ósea es el criterio principal.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 23-28 y 31; G10, pp. 3-4; E11, pp. 35-42; CAR, cap. 9, pp. 165-167 (PDF 180-182)."
+    }
+  },
+  {
+    "id": "L50",
+    "number": 50,
+    "question": "Señale 1 derivado de A",
+    "answer": "SNP",
+    "image": "/slides/lamina-50.jpeg",
+    "sourcePage": 100,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La flecha señala células dorsolaterales al rudimento neural, entre este y el ectodermo de superficie. Su posición corresponde a la región de salida de la cresta neural.",
+      "rationale": "Se solicita un derivado de A, por lo que la respuesta puede ser neuronas de ganglios sensitivos espinales o células de Schwann. No basta con repetir el nombre de la población señalada.",
+      "definition": "Son células derivadas del borde del neuroectodermo. Se ubican inicialmente en los márgenes de los pliegues neurales y después se desprenden y migran desde la región dorsal del tubo neural.",
+      "function": "Generan poblaciones muy diversas según el nivel del eje corporal y su ruta migratoria. En el tronco producen, entre otros derivados, neuronas de ganglios sensitivos y autonómicos, células de Schwann y melanocitos. La cresta craneal aporta también ectomesénquima a la cara.",
+      "development": "Surgen durante la neurulación. Tras una transición epitelio-mesénquima, las células adquieren capacidad migratoria. Su posición dorsolateral respecto del tubo permite distinguirlas del mesodermo paraxial. Pertenecen al linaje ectodérmico, aunque algunas formen tejidos conjuntivos y cartílago craneofacial.",
+      "distinction": "El tubo neural es el epitelio organizado que rodea al neurocele. Un somita es una masa mesodérmica lateral. La micrografía por sí sola no permite asignar a una célula migratoria un destino definitivo; los derivados se establecen por estudios de linaje y por el contexto embrionario.",
+      "contrast": "Los ganglios sensitivos son derivados de la cresta neural y pertenecen al SNP. La clave utiliza el conjunto. Esto no significa que todas las células del SNP procedan exclusivamente de la cresta neural.",
+      "sources": "C9, pp. 20-22; IMG, pp. 16-18; CAR, caps. 6 y 12, pp. 95-96 y 254-260 (PDF 110-111 y 269-275)."
+    }
+  },
+  {
+    "id": "L51",
+    "number": 51,
+    "question": "Identifique la estructura en A",
+    "answer": "Endodermo",
+    "image": "/slides/lamina-51.jpeg",
+    "sourcePage": 102,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "El extremo alcanza una lámina ventral muy fina, en la línea media inferior respecto del eje neural. La notocorda está por encima y las grandes luces pares corresponden a vasos.",
+      "rationale": "La continuidad con la hoja ventral permite reconocer endodermo. No se confunde con la estructura axial redondeada que queda más dorsal.",
+      "definition": "Es la hoja epitelial ventral del embrión trilaminar, enfrentada inicialmente al saco vitelino. En un corte temprano suele ser una capa delgada ubicada por debajo del mesodermo y de los tejidos axiales.",
+      "function": "Origina el revestimiento epitelial de gran parte del tubo digestivo y del sistema respiratorio, así como el parénquima de glándulas asociadas como hígado y páncreas. La musculatura y gran parte del estroma de esas paredes proceden del mesodermo vecino.",
+      "development": "Se establece durante la gastrulación a partir de células del epiblasto que reemplazan al hipoblasto. El plegamiento incorpora una parte de esta hoja en un tubo intestinal. No se debe atribuir el origen de todo un órgano exclusivamente al endodermo cuando sus tejidos tienen aportes diferentes.",
+      "distinction": "El ectodermo recubre la superficie dorsal. Entre ambas hojas se sitúa mesodermo. En la línea media la placa notocordal puede estar transitoriamente relacionada con el endodermo y exige especial cuidado al interpretar cortes tempranos.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "IMG, p. 16: misma micrografía con hoja endodérmica; C9, pp. 11 y 27-28; E11, p. 6."
+    }
+  },
+  {
+    "id": "L52",
+    "number": 52,
+    "question": "Identifique la estructura en A",
+    "answer": "Mesodermo paraxial",
+    "image": "/slides/lamina-52.jpeg",
+    "sourcePage": 104,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La flecha termina en la condensación celular situada bajo el borde izquierdo de la placa neural y por encima de la hoja ventral. El vértice del pliegue neural queda más dorsal.",
+      "rationale": "La posición intermedia entre hojas, próxima al eje neural, favorece mesodermo paraxial. La flecha no alcanza la superficie superior de la placa.",
+      "definition": "Es el mesodermo próximo al eje embrionario, a ambos lados de notocorda y tejido neural. Antes de segmentarse puede reconocerse como una condensación celular todavía continua.",
+      "function": "Origina somitas en gran parte del tronco y aporta precursores del esqueleto axial, músculo esquelético y dermis dorsal. Su organización segmentaria se vuelve más evidente conforme avanza la somitogénesis.",
+      "development": "Se establece por regionalización del mesodermo después de la gastrulación. Los somitas se forman en sentido craneocaudal y después se subdividen. En un corte temprano no debe exigirse que toda masa paraxial tenga ya un aspecto somítico bien separado.",
+      "distinction": "La placa neural es el epitelio dorsal engrosado y el endodermo es la hoja ventral. El mesodermo intermedio está más lateral. La localización bajo el borde neural y entre hojas germinales permite identificar el dominio paraxial aun cuando no haya una luz somítica visible.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "E11, pp. 7 y 12-18; C9, p. 12; G11, p. 2; CAR, cap. 6, pp. 98-103 (PDF 113-118)."
+    }
+  },
+  {
+    "id": "L53",
+    "number": 53,
+    "question": "Identifique la estructura en A",
+    "answer": "Rayo digital",
+    "image": "/slides/lamina-53.jpeg",
+    "sourcePage": 106,
+    "topic": "Embriología",
+    "category": "Desarrollo de miembros",
+    "explanation": {
+      "reading": "La flecha termina en uno de los relieves digitales de la expansión distal del miembro superior, junto a la cara. La placa de la mano es el territorio general, pero el rótulo específico de la pauta corresponde a un rayo digital.",
+      "rationale": "La pauta solicita rayo digital. La propuesta anterior nombraba la placa completa y añadía rayos en formación; se corrige el nivel de detalle para responder al elemento concreto alcanzado por la flecha.",
+      "definition": "Es una condensación mesenquimática alargada de la placa de la mano o del pie que define el territorio de un futuro dedo. Puede manifestarse como un relieve en la expansión distal del miembro.",
+      "function": "Organiza el desarrollo de cada dedo. Los rayos crecen y se diferencian, mientras la reducción del tejido interdigital contribuye a separar los futuros dedos.",
+      "development": "El esqueleto y gran parte del tejido conjuntivo digital proceden del mesodermo lateral somático. Las señales de la cresta apical y de la ZAP participan en el crecimiento y en el patrón. La clase relaciona BMP y genes Msx con la eliminación del tejido interdigital.",
+      "distinction": "Placa de la mano nombra toda la expansión distal; rayo digital nombra un territorio de un futuro dedo dentro de ella. Un rayo todavía no equivale a un dedo completamente separado ni a la cresta ectodérmica apical.",
+      "contrast": "La propuesta anterior fue «Placa de la mano, con rayos digitales en formación». Se sustituye por «Rayo digital» y se actualiza la explicación.",
+      "sources": "E11, pp. 24-30; AP, pp. 8-10; G11, p. 3; CAR, cap. 10, pp. 199-205 (PDF 214-220). Pauta del QUIZ 4, pregunta 1 del envío."
+    }
+  },
+  {
+    "id": "L54",
+    "number": 54,
+    "question": "Señale el periodo del desarrollo (en semanas) del embrión en esta imagen",
+    "answer": "5 semanas",
+    "image": "/slides/lamina-54.jpeg",
+    "sourcePage": 108,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "El corte muestra esbozos de miembros, tubo neural y órganos internos. Estos rasgos ubican la muestra en organogénesis. La pauta del control asigna a esta imagen 5 semanas; la foto aislada no aporta por sí misma especie, escala o estadio completo.",
+      "rationale": "Se utiliza 5 semanas como respuesta docente del control. El dato resuelve la respuesta antes pendiente, pero se atribuye expresamente a la pauta: no se deduce una semana exacta solo del tamaño aparente de los órganos en un corte.",
+      "definition": "Es un corte de un embrión en organogénesis que el formulario fecha en 5 semanas. Los rudimentos de miembros y los órganos internos permiten reconocer desarrollo embrionario activo, sin fechar por sí solos todo el espécimen.",
+      "function": "La pregunta evalúa la relación entre apariencia y cronología. En esta etapa continúan el crecimiento y la diferenciación de los esbozos; la datación precisa exige contexto del espécimen además de su morfología.",
+      "development": "La quinta semana humana pertenece al período embrionario de organogénesis. En los materiales también se usan modelos animales: sus horas de incubación o longitudes no deben convertirse automáticamente a semanas humanas.",
+      "distinction": "Para este control se responde 5 semanas. Como criterio general, una datación independiente debe combinar especie, dimensiones y estadio morfológico. El valor indicado por la pauta no justifica asignar la misma edad a cualquier corte parecido.",
+      "contrast": "La pauta fija 5 semanas. La falta de escala y procedencia sigue limitando una datación independiente a partir de la foto.",
+      "sources": "G11, pp. 6-8; AP, pp. 6-7; E11, pp. 2 y 24-30; ANI, series de modelos animales. Pauta del QUIZ 4, pregunta 36 del envío."
+    }
+  },
+  {
+    "id": "L55",
+    "number": 55,
+    "question": "Identifique la zona en A",
+    "answer": "Zona de invasión vascular",
+    "image": "/slides/lamina-55.jpeg",
+    "sourcePage": 110,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "La llave atraviesa el frente donde se interrumpen columnas de cartílago y aparecen trabéculas, vasos y abundantes células medulares. Queda hacia la vertiente ósea de la placa.",
+      "rationale": "La combinación de invasión, espacios medulares y trabéculas en formación identifica la fase de sustitución. En una nomenclatura simplificada puede llamarse zona de osificación.",
+      "definition": "Es el frente donde vasos y células acompañantes invaden el cartílago calcificado y aparecen espacios medulares y trabéculas en formación. Suele describirse también como zona de osificación en una clasificación simplificada.",
+      "function": "Permite retirar tabiques cartilaginosos y aportar células osteogénicas. Los osteoblastos depositan osteoide sobre superficies de matriz calcificada que persisten transitoriamente como andamiaje. El cartílago y el hueso pueden coexistir en una espícula mixta.",
+      "development": "Integra la fase de sustitución endocondral del molde cartilaginoso. La vascularización conecta la maduración del cartílago con la formación de médula y hueso. No es un simple cambio de color de la matriz: implica entrada de nuevos tipos celulares y reorganización tisular.",
+      "distinction": "La zona hipertrófica presenta grandes lagunas todavía organizadas en cartílago. En el frente de resorción se ven interrupción de tabiques, espacios con células hematopoyéticas y trabéculas óseas. El nombre solicitado puede variar entre la guía de cinco zonas y la simplificación de la clase.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 42 y 45-48; G11, pp. 4-5; H10, pp. 24-30."
+    }
+  },
+  {
+    "id": "L56",
+    "number": 56,
+    "question": "Señale 1 derivado de A",
+    "answer": "Intestino",
+    "image": "/slides/lamina-56.jpeg",
+    "sourcePage": 112,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La flecha señala la hoja inferior del corte, por debajo de mesodermo y del territorio ectodérmico. La misma micrografía aparece en el material de respuestas con el rótulo endodermo.",
+      "rationale": "La pregunta pide un derivado. Una respuesta precisa es epitelio de gran parte del tubo digestivo, evitando atribuir también al endodermo la musculatura y todo el estroma de la pared.",
+      "definition": "Es la hoja epitelial ventral del embrión trilaminar, enfrentada inicialmente al saco vitelino. En un corte temprano suele ser una capa delgada ubicada por debajo del mesodermo y de los tejidos axiales.",
+      "function": "Origina el revestimiento epitelial de gran parte del tubo digestivo y del sistema respiratorio, así como el parénquima de glándulas asociadas como hígado y páncreas. La musculatura y gran parte del estroma de esas paredes proceden del mesodermo vecino.",
+      "development": "Se establece durante la gastrulación a partir de células del epiblasto que reemplazan al hipoblasto. El plegamiento incorpora una parte de esta hoja en un tubo intestinal. No se debe atribuir el origen de todo un órgano exclusivamente al endodermo cuando sus tejidos tienen aportes diferentes.",
+      "distinction": "El ectodermo recubre la superficie dorsal. Entre ambas hojas se sitúa mesodermo. En la línea media la placa notocordal puede estar transitoriamente relacionada con el endodermo y exige especial cuidado al interpretar cortes tempranos.",
+      "contrast": "La pauta resume el derivado como intestino. Con precisión histológica, el endodermo aporta su epitelio; gran parte de la musculatura y el conjuntivo de la pared proceden del mesodermo esplácnico.",
+      "sources": "IMG, p. 14; E11, p. 6; C9, pp. 11 y 27-28; CAR, cap. 6, pp. 107-110 (PDF 122-125)."
+    }
+  },
+  {
+    "id": "L57",
+    "number": 57,
+    "question": "Señale el periodo del dearrollo (en días) del embrión en esta imagen",
+    "answer": "21-22 días",
+    "image": "/slides/lamina-57.jpeg",
+    "sourcePage": 114,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "La vista dorsal muestra región cefálica ensanchada, surco y pliegues neurales, además de somitas. La pauta del formulario asigna a esta imagen 21-22 días. El archivo IMG contiene un ejemplo semejante rotulado como día 20.",
+      "rationale": "La respuesta que se debe escribir en este control es 21-22 días. Existe una diferencia con la referencia aproximada de IMG; se mantiene visible y se prioriza la pauta de este formulario para su corrección. La clase 9 sitúa el comienzo del cierre neural alrededor de los días 21-22.",
+      "definition": "Es una vista dorsal de un embrión en neurulación y somitogénesis tempranas. La pauta lo fecha en 21-22 días desde fecundación. Su morfología permite reconocer la etapa general, con menos precisión que un registro completo del espécimen.",
+      "function": "La neurulación construye el precursor del sistema nervioso central mientras el mesodermo paraxial se segmenta en somitas. La asociación de pliegues, surco y somitas permite ubicar el proceso en el desarrollo temprano.",
+      "development": "La clase 9, p. 19, sitúa el inicio del cierre neural en 21-22 días y describe progresión desde la región media. Los extremos permanecen abiertos como neuroporos durante un tiempo. La fecha de la pauta se refiere al desarrollo embrionario, no a la edad gestacional clínica.",
+      "distinction": "La respuesta oficial es 21-22 días. La mención de día 20 en IMG se conserva como discrepancia entre materiales, no como una segunda respuesta aceptada en el formulario. Para datar una imagen fuera de este contexto se necesita el estadio o la procedencia del espécimen.",
+      "contrast": "Se corrige el día 20 por 21-22 días para este control. El PDF señala expresamente la diferencia entre la pauta y el archivo IMG.",
+      "sources": "Pauta del QUIZ 4, pregunta 51 del envío; C9, pp. 18-19; E11, pp. 12-13. Contraste: IMG, p. 10, ejemplo rotulado día 20."
+    }
+  },
+  {
+    "id": "L58",
+    "number": 58,
+    "question": "Identifique el tipo de osificación en A",
+    "answer": "Osificación membranosa",
+    "image": "/slides/lamina-58.jpeg",
+    "sourcePage": 116,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "En el corte de cabeza se reconocen lengua, cartílagos y espículas óseas de la región mandibular. La flecha alcanza una zona de trabéculas asociadas a mesénquima.",
+      "rationale": "La topografía mandibular y las espículas en mesénquima apoyan osificación intramembranosa. Los cartílagos vecinos deben identificarse como referencias anatómicas, sin asumir sustitución directa de Meckel.",
+      "definition": "Es la formación de hueso directamente en un tejido mesenquimático, sin que cada trabécula sustituya un molde cartilaginoso previo. Se reconocen espículas óseas, osteoblastos en superficie y tejido conjuntivo interpuesto.",
+      "function": "Permite construir partes de los huesos planos y gran parte de la mandíbula. Los osteoblastos depositan osteoide que después se mineraliza. Las espículas iniciales se conectan y su remodelación produce hueso maduro.",
+      "development": "En la mandíbula, la formación ósea ocurre en mesénquima próximo al cartílago de Meckel. La proximidad del cartílago no convierte el mecanismo en endocondral. Gran parte del mesénquima mandibular procede de la cresta neural craneal. Algunas regiones mandibulares presentan cartílagos secundarios, por lo que no se debe generalizar un único mecanismo a toda su historia.",
+      "distinction": "En la vía endocondral se reconocen un molde cartilaginoso y una secuencia de hipertrofia, calcificación e invasión. Aquí el criterio es el patrón de hueso en el mesénquima y su relación con Meckel. Una única trabécula aislada no siempre permite reconstruir el mecanismo completo.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 33-39; G11, pp. 4-5; CAR, cap. 9, pp. 165-167 y 174-177 (PDF 180-182 y 189-192)."
+    }
+  },
+  {
+    "id": "L59",
+    "number": 59,
+    "question": "Identifique la estructura en A",
+    "answer": "Conducto de Havers",
+    "image": "/slides/lamina-59.jpeg",
+    "sourcePage": 118,
+    "topic": "Histología",
+    "category": "Tejido óseo",
+    "explanation": {
+      "reading": "El extremo señala el centro claro de un sistema de laminillas concéntricas. A su alrededor hay lagunas oscuras y canalículos finos que irradian en la matriz.",
+      "rationale": "La posición central dentro de una osteona identifica el conducto de Havers. La flecha no abarca toda la osteona ni una laguna periférica.",
+      "definition": "Es el canal central de una osteona. Se reconoce por estar rodeado por laminillas óseas concéntricas y por su calibre mayor que el de las lagunas y los canalículos de osteocitos.",
+      "function": "En hueso vivo contiene vasos sanguíneos, nervios y tejido conjuntivo de revestimiento. Constituye una vía de nutrición para la osteona, conectada con la red lacunocanalicular y con conductos perforantes.",
+      "development": "Se integra en la organización del hueso compacto maduro durante la formación y remodelación de osteonas. La resorción y el depósito laminar reorganizan el tejido alrededor de rutas vasculares. No corresponde al conducto central del tubo neural ni a una estructura embrionaria homónima.",
+      "distinction": "Un conducto de Volkmann atraviesa o conecta osteonas y no tiene su propio sistema de laminillas concéntricas. Una laguna de osteocito es mucho menor. En una preparación por desgaste el canal puede estar vacío, por lo que su contenido se explica como dato del tejido vivo.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 34-35; G10, p. 3; H10, p. 28 para el sistema lacunocanalicular."
+    }
+  },
+  {
+    "id": "L60",
+    "number": 60,
+    "question": "Identifique el tipo de cartílago en la imagen",
+    "answer": "Cartílago elástico",
+    "image": "/slides/lamina-60.jpeg",
+    "sourcePage": 120,
+    "topic": "Histología",
+    "category": "Cartílago",
+    "explanation": {
+      "reading": "Se observan numerosos condrocitos en lagunas rodeados por una malla de fibras oscuras. La red se extiende por la matriz y contrasta con el tejido conjuntivo periférico.",
+      "rationale": "La presencia de una red elástica resaltada en una matriz cartilaginosa favorece cartílago elástico. El color oscuro se interpreta junto con la arquitectura fibrilar y las lagunas.",
+      "definition": "Es cartílago con condrocitos en lagunas y una red de fibras elásticas en la matriz. Las tinciones para elastina resaltan esa red y permiten distinguirlo del hialino.",
+      "function": "Combina sostén con deformación reversible y recuperación de la forma. Se encuentra en estructuras como pabellón auricular y epiglotis. Conserva matriz cartilaginosa con colágeno II además del componente elástico.",
+      "development": "Se origina por diferenciación condrogénica de mesénquima. El linaje preciso depende de la región anatómica, con aportes de cresta neural en parte de las estructuras craneofaciales. La micrografía confirma el tipo de cartílago, pero por sí sola no prueba si proviene de oreja o epiglotis.",
+      "distinction": "La matriz hialina no muestra la misma red elástica evidente con una tinción apropiada. El fibrocartílago contiene haces colágenos gruesos y condrocitos en hileras. El color oscuro por sí solo no basta: deben distinguirse fibras y células en lagunas.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 2-3 y 10; G10, pp. 5-6; C9, pp. 21-22 para los aportes de cresta neural craneal."
+    }
+  },
+  {
+    "id": "L61",
+    "number": 61,
+    "question": "Identifique la estructura en A",
+    "answer": "Mesodermo intermedio",
+    "image": "/slides/lamina-61.jpeg",
+    "sourcePage": 122,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "La flecha se dirige a una pequeña región situada lateral al somita y medial al territorio de placa lateral y celoma. El tubo neural y la notocorda permiten orientar el eje.",
+      "rationale": "La localización entre los dominios paraxial y lateral identifica mesodermo intermedio. El campo no obliga a denominar un túbulo renal específico si su luz no está bien delimitada.",
+      "definition": "Es la región mesodérmica situada entre el mesodermo paraxial y la placa lateral. En cortes de embriones animales puede reconocerse como una condensación o como estructuras nefrogénicas junto al límite medial del celoma.",
+      "function": "Forma gran parte del sistema urogenital, incluidos componentes renales y de las vías genitales. Para responder con un único derivado resulta apropiado indicar túbulos renales o nefronas, sin atribuirle todos los tejidos de todos los órganos urinarios.",
+      "development": "Después de la gastrulación, el mesodermo se regionaliza a lo largo del eje mediolateral. El mesodermo intermedio participa sucesivamente en sistemas nefrogénicos embrionarios. La interpretación de un corte de pollo debe reconocer homologías y evitar convertir sus horas de incubación en semanas humanas equivalentes.",
+      "distinction": "Los somitas están más cerca del tubo neural. La placa lateral se abre en dos hojas alrededor del celoma. La pared de un vaso y una luz celómica son estructuras distintas a un túbulo nefrogénico. La localización debe apoyar cualquier identificación de una pequeña condensación celular.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "E11, pp. 7-9; G11, p. 2; CAR, cap. 6, pp. 103-104 (PDF 118-119) y cap. 16."
+    }
+  },
+  {
+    "id": "L62",
+    "number": 62,
+    "question": "Identifique el tipo de osificación en A",
+    "answer": "Osificación membranosa",
+    "image": "/slides/lamina-62.jpeg",
+    "sourcePage": 124,
+    "topic": "Embriología",
+    "category": "Osificación",
+    "explanation": {
+      "reading": "El campo ampliado muestra trabéculas eosinófilas, osteoblastos periféricos y mesénquima. A un lado se observa un cartílago redondeado compatible con Meckel; el recuadro localiza la mandíbula.",
+      "rationale": "La ampliación muestra hueso formándose en el mesénquima junto al cartílago, no una placa de crecimiento. Por eso se clasifica como intramembranosa.",
+      "definition": "Es la formación de hueso directamente en un tejido mesenquimático, sin que cada trabécula sustituya un molde cartilaginoso previo. Se reconocen espículas óseas, osteoblastos en superficie y tejido conjuntivo interpuesto.",
+      "function": "Permite construir partes de los huesos planos y gran parte de la mandíbula. Los osteoblastos depositan osteoide que después se mineraliza. Las espículas iniciales se conectan y su remodelación produce hueso maduro.",
+      "development": "En la mandíbula, la formación ósea ocurre en mesénquima próximo al cartílago de Meckel. La proximidad del cartílago no convierte el mecanismo en endocondral. Gran parte del mesénquima mandibular procede de la cresta neural craneal. Algunas regiones mandibulares presentan cartílagos secundarios, por lo que no se debe generalizar un único mecanismo a toda su historia.",
+      "distinction": "En la vía endocondral se reconocen un molde cartilaginoso y una secuencia de hipertrofia, calcificación e invasión. Aquí el criterio es el patrón de hueso en el mesénquima y su relación con Meckel. Una única trabécula aislada no siempre permite reconstruir el mecanismo completo.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 33-39; G11, pp. 4-5; CAR, cap. 9, pp. 165-167 y 174-177 (PDF 180-182 y 189-192)."
+    }
+  },
+  {
+    "id": "L63",
+    "number": 63,
+    "question": "Identifique la estructura en A",
+    "answer": "Cresta ectodérmica apical",
+    "image": "/slides/lamina-63.jpeg",
+    "sourcePage": 126,
+    "topic": "Embriología",
+    "category": "Desarrollo de miembros",
+    "explanation": {
+      "reading": "El extremo rojo alcanza el revestimiento engrosado del borde distal de una yema de miembro. Se distingue de la masa mesenquimática oscura que ocupa el interior.",
+      "rationale": "La posición apical y su pertenencia al epitelio favorecen CEA. La ZAP no corresponde al borde ectodérmico y no puede localizarse sólo por ser una región distal.",
+      "definition": "Es un engrosamiento del ectodermo en el borde distal de la yema del miembro. Se distingue del mesénquima subyacente porque forma parte del revestimiento epitelial.",
+      "function": "Mantiene interacciones con el mesénquima distal y favorece el crecimiento proximodistal mediante señales FGF, entre ellas FGF8. La organización del miembro requiere además señales anteroposteriores y dorsoventrales que no se reducen a la acción de la cresta.",
+      "development": "Procede del ectodermo superficial. El mesénquima que cubre deriva principalmente del mesodermo lateral somático e incorpora otros precursores. La cooperación entre tejidos es esencial para formar una extremidad proporcionada. La clase diferencia CEA y zona de actividad polarizante como centros distintos.",
+      "distinction": "La ZAP es mesenquimática, posterior y relacionada con SHH. La zona de progreso queda debajo de la CEA. Un engrosamiento apical visible es compatible con CEA, pero para demostrar su programa molecular se requerirían marcadores o información experimental.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "E11, pp. 26-29; G11, p. 3; CAR, cap. 10, pp. 194-199 (PDF 209-214)."
+    }
+  },
+  {
+    "id": "L64",
+    "number": 64,
+    "question": "Señale 1 derivado de A",
+    "answer": "Epidermis",
+    "image": "/slides/lamina-64.jpeg",
+    "sourcePage": 128,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La flecha termina en la hoja epitelial superior, lateral al pliegue neural. El material de respuestas la identifica como ectodermo.",
+      "rationale": "Se pide un derivado del tejido A. Epidermis es una respuesta directa y más específica que piel, porque la dermis tiene otro origen.",
+      "definition": "Es la hoja externa que recubre el embrión por fuera del territorio neural. En un corte temprano puede verse como una lámina epitelial delgada que se continúa con los bordes de los pliegues neurales.",
+      "function": "Origina la epidermis y sus anexos y participa en señales que influyen en tejidos subyacentes. En zonas concretas forma placodas sensitivas y la cresta ectodérmica apical de los miembros. El potencial de una región depende de su posición y de las interacciones con otros tejidos.",
+      "development": "Proviene de las células del epiblasto que permanecen en la superficie tras la gastrulación. En la región dorsal se distingue del neuroectodermo que forma placa y tubo neural. La epidermis es un derivado ectodérmico, mientras la dermis tiene orígenes mesenquimáticos dependientes de la región corporal.",
+      "distinction": "La lámina ventral asociada al saco vitelino corresponde al endodermo. Las células que quedan entre ambas hojas forman mesodermo. El amnios es una membrana extraembrionaria y no debe confundirse con el revestimiento del cuerpo embrionario.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "IMG, p. 14; C9, pp. 11 y 18; E11, pp. 3-5; CAR, cap. 9, pp. 156-160 (PDF 171-175)."
+    }
+  },
+  {
+    "id": "L65",
+    "number": 65,
+    "question": "Identifique 1 señal molecular producida por A",
+    "answer": "Shh",
+    "image": "/slides/lamina-65.jpeg",
+    "sourcePage": 130,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La línea alcanza la pequeña estructura redonda y maciza situada ventral al rudimento neural, en la línea media. No apunta a ninguna de las luces vasculares laterales.",
+      "rationale": "Reconocida la notocorda, SHH es una señal apropiada para responder. El enunciado solicita una molécula, no el derivado anatómico de la estructura.",
+      "definition": "Es un cordón celular axial, macizo, situado ventral al tubo neural y dorsal al endodermo. En un corte transversal puede verse como una pequeña estructura redondeada en la línea media.",
+      "function": "Funciona como centro de señalización. SHH participa en la especificación ventral del tubo neural y del esclerotoma. Antagonistas de BMP y otras interacciones intervienen en la inducción y organización neural. Su función inductora tiene más relevancia que un simple sostén mecánico en el embrión humano.",
+      "development": "Deriva del mesodermo axial procedente de células que ingresan por el nodo primitivo. Durante su formación existe una fase de placa notocordal antes de constituirse el cordón definitivo. Sus restos contribuyen al núcleo pulposo de los discos intervertebrales, mientras los cuerpos vertebrales y el anillo fibroso se relacionan con el esclerotoma.",
+      "distinction": "El tubo neural tiene una luz y una pared neuroepitelial más grande. Las aortas dorsales son pares y contienen una luz vascular. La notocorda no debe rotularse como futura médula espinal ni como cuerpo vertebral.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "C9, p. 23; E11, p. 16; CAR, cap. 6, pp. 100-101 (PDF 115-116)."
+    }
+  },
+  {
+    "id": "L66",
+    "number": 66,
+    "question": "Identifique la estructura en A",
+    "answer": "Surco primitivo",
+    "image": "/slides/lamina-66.jpeg",
+    "sourcePage": 132,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La flecha señala la depresión del epiblasto en una región central engrosada. Por debajo se encuentran células mesenquimáticas y una hoja ventral delgada.",
+      "rationale": "La misma imagen del material de respuestas rotula esa depresión como surco primitivo y la sitúa en gastrulación. No corresponde al surco neural.",
+      "definition": "Es la depresión longitudinal de la línea primitiva por la que ingresan células del epiblasto durante la gastrulación. En un corte transversal aparece como una invaginación superficial en la región de engrosamiento epiblástico.",
+      "function": "Facilita el ingreso y redistribución de células que forman endodermo definitivo y mesodermo. La transición epitelio-mesénquima modifica adhesión, polaridad y capacidad migratoria. El resto del epiblasto superficial dará lugar a ectodermo.",
+      "development": "La clase sitúa el inicio de la línea primitiva alrededor del día 15. En su extremo craneal se encuentra el nodo, asociado a la fosita primitiva. El surco se relaciona con la gastrulación y después regresa junto con el territorio primitivo.",
+      "distinction": "El surco neural pertenece al plegamiento del neuroectodermo. La fosita primitiva es la depresión del nodo y no toda la longitud del surco. En esta imagen el material de respuestas rotula la misma depresión como surco primitivo.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "C9, pp. 7-12; IMG, p. 12; CAR, cap. 5, pp. 77-81 (PDF 92-96)."
+    }
+  },
+  {
+    "id": "L67",
+    "number": 67,
+    "question": "Señale 1 derivado de A",
+    "answer": "Dermis",
+    "image": "/slides/lamina-67.jpeg",
+    "sourcePage": 134,
+    "topic": "Embriología",
+    "category": "Mesodermo y derivados",
+    "explanation": {
+      "reading": "El extremo alcanza el territorio dorsal epitelial del somita, inmediatamente bajo el ectodermo. La región ventral contiene células más dispersas compatibles con esclerotoma.",
+      "rationale": "La pauta pide dermis. El territorio dorsal del somita se relaciona con el dermatoma y explica la formación de dermis dorsal. La respuesta enviada, dermis del dorso, añadía una localización a la formulación general de la clave.",
+      "definition": "El derivado solicitado es dermis, el componente conjuntivo de la piel. En este contexto somítico se relaciona con el dermatoma y con la formación de dermis del dorso, no con el epitelio de la epidermis.",
+      "function": "La dermis sostiene la epidermis y aloja vasos, nervios y componentes conjuntivos. En el desarrollo, el territorio dermatómico aporta precursores para ese tejido dorsal.",
+      "development": "El dermatoma se forma a partir del dominio dorsal del somita, derivado del mesodermo paraxial. La epidermis procede del ectodermo superficial. El origen de la dermis varía con la región: no toda la dermis corporal procede de un dermatoma somítico.",
+      "distinction": "Dermatoma y miotomo son territorios embrionarios diferentes: uno se relaciona con dermis y el otro con músculo. La epidermis tiene origen ectodérmico. El dermatoma clínico, definido por una raíz sensitiva, es otro uso del término.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "E11, pp. 16-18; G11, p. 2; CAR, cap. 6, pp. 100-103 (PDF 115-118). Pauta del QUIZ 4, pregunta 50 del envío."
+    }
+  },
+  {
+    "id": "L68",
+    "number": 68,
+    "question": "Señale el periodo del desarrollo (en semanas) del embrión en esta imagen",
+    "answer": "5 semanas",
+    "image": "/slides/lamina-68.jpeg",
+    "sourcePage": 136,
+    "topic": "Embriología",
+    "category": "Desarrollo embrionario",
+    "explanation": {
+      "reading": "El embrión es curvo, con cabeza prominente, cola visible y brotes de miembros poco segmentados. El brote inferior es pequeño y redondeado.",
+      "rationale": "Ese conjunto favorece la quinta semana frente a una etapa con dedos separados. La ausencia de escala impide precisar el día o una longitud vértice-nalgas.",
+      "definition": "El embrión muestra una curvatura corporal marcada, cabeza grande y brotes de miembros todavía poco segmentados. La región caudal suele conservar una prominencia o cola evidente.",
+      "function": "El crecimiento cefálico y la expansión de los esbozos orgánicos cambian rápidamente su forma. Los miembros pasan de pequeños brotes a expansiones más definidas. La edad se estima a partir de un conjunto de rasgos, no de una sola prominencia.",
+      "development": "La cápsula de apariencia externa asocia la quinta semana con esbozos de miembros y cola prominente. La clase de desarrollo de miembros precisa que los primeros brotes aparecen ya al final de la cuarta semana. Por eso un brote aislado no permite diferenciar de forma absoluta ambos límites temporales.",
+      "distinction": "En la sexta semana son más evidentes las placas distales y los rayos digitales. Una foto sin escala o identificación del espécimen permite una estimación, pero no una datación exacta. Debe mantenerse separada la edad desde fecundación de la edad gestacional clínica.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "AP, pp. 2 y 6-8; E11, pp. 24-30; G11, pp. 6-8; CAR, cap. 10, pp. 193-195 (PDF 208-210)."
+    }
+  },
+  {
+    "id": "L69",
+    "number": 69,
+    "question": "Señale 1 derivado de A",
+    "answer": "Núcleo pulposo",
+    "image": "/slides/lamina-69.jpeg",
+    "sourcePage": 138,
+    "topic": "Embriología",
+    "category": "Neurulación",
+    "explanation": {
+      "reading": "La flecha señala la misma estructura axial maciza ubicada bajo el rudimento neural que se reconoce como notocorda en otras preguntas del control.",
+      "rationale": "Se pide un derivado, por lo que corresponde núcleo pulposo. El anillo fibroso y gran parte de la vértebra se vinculan con esclerotoma y no son la respuesta a esta flecha.",
+      "definition": "Es un cordón celular axial, macizo, situado ventral al tubo neural y dorsal al endodermo. En un corte transversal puede verse como una pequeña estructura redondeada en la línea media.",
+      "function": "Funciona como centro de señalización. SHH participa en la especificación ventral del tubo neural y del esclerotoma. Antagonistas de BMP y otras interacciones intervienen en la inducción y organización neural. Su función inductora tiene más relevancia que un simple sostén mecánico en el embrión humano.",
+      "development": "Deriva del mesodermo axial procedente de células que ingresan por el nodo primitivo. Durante su formación existe una fase de placa notocordal antes de constituirse el cordón definitivo. Sus restos contribuyen al núcleo pulposo de los discos intervertebrales, mientras los cuerpos vertebrales y el anillo fibroso se relacionan con el esclerotoma.",
+      "distinction": "El tubo neural tiene una luz y una pared neuroepitelial más grande. Las aortas dorsales son pares y contienen una luz vascular. La notocorda no debe rotularse como futura médula espinal ni como cuerpo vertebral.",
+      "contrast": "La pauta usa esta formulación literal. La propuesta enviada describe el mismo concepto o añade una precisión, pero el formulario la marcó como incorrecta por su redacción.",
+      "sources": "C9, pp. 13-17 y 23; E11, pp. 11 y 16-19; CAR, caps. 5-6, pp. 79-84 y 100-103 (PDF 94-99 y 115-118)."
+    }
+  },
+  {
+    "id": "L70",
+    "number": 70,
+    "question": "Identifique la estructura en A",
+    "answer": "Disco intercalar",
+    "image": "/slides/lamina-70.jpeg",
+    "sourcePage": 140,
+    "topic": "Histología",
+    "category": "Tejido muscular",
+    "explanation": {
+      "reading": "La línea alcanza una banda transversal más oscura que interrumpe el trayecto de células musculares con núcleos centrales y ramificación. Su separación es mayor que la repetición fina de las estriaciones.",
+      "rationale": "La unión entre cardiomiocitos y el patrón del tejido identifican disco intercalar. No se trata de una banda A o I de un sarcómero individual.",
+      "definition": "Es una unión especializada entre cardiomiocitos contiguos. Con microscopía óptica aparece como una línea transversal u oblicua más oscura, a veces escalonada, que atraviesa la fibra cardíaca.",
+      "function": "Combina acoplamiento mecánico y eléctrico. Las uniones de adhesión transmiten fuerza entre células y las uniones comunicantes permiten el paso de corriente iónica. La coordinación funcional del miocardio no exige que sus células se fusionen en un sincitio anatómico.",
+      "development": "Los cardiomiocitos derivan del mesodermo cardiogénico esplácnico y conservan límites celulares individuales. Durante la diferenciación se organizan miofibrillas y uniones entre células. Este proceso difiere de la fusión de mioblastos que forma fibras musculares esqueléticas multinucleadas.",
+      "distinction": "La línea Z pertenece a cada sarcómero y se repite a distancias mucho menores. Un disco intercalar separa células, tiene una periodicidad menos uniforme y suele acompañarse de núcleos centrales y ramificación celular. El músculo esquelético carece de discos intercalares.",
+      "contrast": "La respuesta enviada fue aceptada por la corrección automática. Se mantiene el fundamento histológico y embrionario.",
+      "sources": "H10, pp. 40 y 55; CAR, cap. 9, pp. 189-190 (PDF 204-205)."
+    }
+  }
+]
