@@ -137,7 +137,7 @@ function StudyApp({ cards }) {
       <div className="sidebar-divider"/>
       <div className="workspace-label collection-label">TU COLECCIÓN</div>
       <button className="course-link" onClick={() => { setCategory('Todas'); setLibraryTab('all'); navigate('library'); }}><span className="course-icon"><Microscope size={19}/></span><span><strong>Morfología I</strong><small>Histología y embriología</small></span></button>
-      <div className="sidebar-note"><span className="note-star">✳</span><p>Lo que hoy repasas,<br/><strong>mañana lo recuerdas.</strong></p><div className="note-lines"><i/><i/><i/><i/><i/></div></div>
+      <div className="sidebar-note"><span className="note-star">✳</span><p><strong>Aguante la USS</strong></p><div className="note-lines"><i/><i/><i/><i/><i/></div></div>
       <div className="sidebar-bottom"><button onClick={() => setHelp(true)}><Lightbulb size={17}/>Cómo funciona<ArrowUpRight size={14}/></button><div className="profile"><div className="avatar">TÚ</div><div><strong>Tu espacio personal</strong><small>Hecho para aprender</small></div><span className="online-dot"/></div></div>
     </aside>
     {mobileNav && <button className="nav-backdrop" aria-label="Cerrar menú" onClick={() => setMobileNav(false)}/>}
