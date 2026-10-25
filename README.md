@@ -4,10 +4,11 @@ Una app de estudio de Morfología I: 70 imágenes originales de la pauta, una pr
 
 ## Estudiar
 
+- Al entrar, elige una sesión de **10, 15, 30, 40 o 70 láminas**. Cada sesión toma una selección y un orden aleatorios, sin repetir láminas dentro de ella.
 - Escribe la respuesta y pulsa **Comprobar respuesta** o Enter.
 - Si aciertas, se habilita **Siguiente lámina**.
 - Si fallas, revelas la respuesta o se acaba el tiempo, ves inmediatamente la respuesta oficial. Debes reintentar la misma pregunta y acertar para avanzar.
-- Cada intento tiene **2 minutos**. Pausar oculta la pregunta y congela el reloj. Recargar no reinicia el tiempo.
+- Cada intento tiene **2 minutos**. El reloj empieza al pulsar **Comenzar sesión**. Pausar oculta la pregunta y congela el reloj. Al recargar o volver a abrir, aparece el selector para comenzar una sesión nueva; el progreso acumulado y las guardadas se conservan.
 - Se toleran mayúsculas, tildes, espacios, pequeñas erratas y sinónimos revisados. El corrector es local y conservador: no usa IA ni pretende evaluar cualquier explicación libre.
 - Amplía las imágenes, guarda favoritas, consulta las explicaciones y practica por tema.
 - El progreso queda en el navegador, sin cuenta y sin sincronización entre equipos. Los repasos se programan a 1, 3, 7, 14 y 30 días.

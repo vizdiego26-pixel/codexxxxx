@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { ArrowRight, ArrowUpRight, BookOpen, Bookmark, ChartNoAxesCombined, Check, CheckCheck, ChevronDown, Clock3, FileText, GraduationCap, Grid2X2, Layers, Lightbulb, Maximize2, Menu, Microscope, Pause, Play, RotateCcw, Search, Shuffle, Sparkles, Target, X, XCircle } from 'lucide-react';
 import { gradeAnswer } from './lib/grading.js';
 import { loadProgress, saveProgress, recordReview, getCardStatus } from './lib/storage.js';
+import { SESSION_SIZES, createStudySession, createEmptySession } from './lib/session.js';
 
 const SESSION_KEY = 'lamina.session.v1';
 const BOOKMARK_KEY = 'lamina.bookmarks.v1';
@@ -11,16 +12,6 @@ const readLocal = (key, fallback) => { try { return JSON.parse(localStorage.getI
 const writeLocal = (key, value) => { try { localStorage.setItem(key, JSON.stringify(value)); return true; } catch { return false; } };
 const pad = n => String(n).padStart(2, '0');
 const minutes = seconds => `${pad(Math.floor(seconds / 60))}:${pad(seconds % 60)}`;
-const mix = array => { const a = [...array]; for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
-
-function initialSession(cards) {
-  const old = readLocal(SESSION_KEY, null);
-  if (old && Array.isArray(old.queue) && old.queue.length && new Set(old.queue).size === old.queue.length && old.queue.every(id => cards.some(c => c.id === id)) && Number.isInteger(old.index) && old.index >= 0 && old.index <= old.queue.length && typeof old.deadline === 'number' && Number.isFinite(old.deadline)) {
-    return { ...old, paused: !!old.paused, remaining: Math.max(0, Math.min(120, Number(old.remaining) || 0)), feedback: old.feedback?.match ? old.feedback : null };
-  }
-  return { queue: cards.map(c => c.id), index: 0, deadline: Date.now() + DURATION * 1000, paused: false, remaining: DURATION, feedback: null };
-}
-
 export default function App() {
   const [cards, setCards] = useState(null);
   const [error, setError] = useState(false);
@@ -33,9 +24,11 @@ export default function App() {
 }
 
 function StudyApp({ cards }) {
-  const [view, setView] = useState('study');
+  const [view, setView] = useState('setup');
   const [progress, setProgress] = useState(loadProgress);
-  const [session, setSession] = useState(() => initialSession(cards));
+  const [session, setSession] = useState(createEmptySession);
+  const [sessionPool, setSessionPool] = useState(cards);
+  const [sessionSize, setSessionSize] = useState(10);
   const [answer, setAnswer] = useState(() => session.feedback?.submitted || '');
   const [tick, setTick] = useState(Date.now());
   const [bookmarks, setBookmarks] = useState(() => { const b = readLocal(BOOKMARK_KEY, []); return Array.isArray(b) ? b.filter(id => cards.some(c => c.id === id)) : []; });
@@ -61,7 +54,7 @@ function StudyApp({ cards }) {
   const attempts = Object.values(progress.cards).reduce((n, c) => n + c.attempts, 0);
   const successes = Object.values(progress.cards).reduce((n, c) => n + c.correct, 0);
   const accuracy = attempts ? Math.round(successes / attempts * 100) : 0;
-  const percent = Math.round(session.index / session.queue.length * 100);
+  const percent = session.queue.length ? Math.round(session.index / session.queue.length * 100) : 0;
 
   useEffect(() => {
     if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
@@ -104,11 +97,18 @@ function StudyApp({ cards }) {
     setSession(s => ({ ...s, deadline: Date.now() + DURATION * 1000, remaining: DURATION, paused: false, feedback: null }));
     setTick(Date.now()); setTimeout(() => inputRef.current?.focus(), 0);
   }
-  function startSession(selection, shuffle = false) {
+  function startSession(selection, count = selection.length) {
     if (!selection.length) { setNotice('No hay láminas en esta selección todavía.'); return; }
-    const queue = (shuffle ? mix(selection) : selection).map(c => c.id);
-    setSession({ queue, index: 0, deadline: Date.now() + DURATION * 1000, paused: false, remaining: DURATION, feedback: null });
+    setSession(createStudySession(selection, count));
     setTick(Date.now()); setView('study'); setMobileNav(false); setAnswer(''); setExplanation(false);
+  }
+  function chooseSession(pool = cards) {
+    if (!pool.length) { setNotice('No hay láminas en esta selección todavía.'); return; }
+    if (!session.paused && !feedback && !done) setSession(s => ({ ...s, paused: true, remaining }));
+    const sizes = SESSION_SIZES.filter(size => size <= pool.length);
+    setSessionPool(pool);
+    setSessionSize(size => sizes.includes(size) ? size : sizes[0] || pool.length);
+    setView('setup'); setMobileNav(false); setZoom(false);
   }
   function pause() {
     if (feedback || done) return;
@@ -117,7 +117,7 @@ function StudyApp({ cards }) {
   }
   function navigate(nextView) {
     if (nextView !== 'study' && !session.paused && !feedback && !done) setSession(s => ({ ...s, paused: true, remaining }));
-    setView(nextView); setMobileNav(false);
+    setView(nextView === 'study' && !session.queue.length ? 'setup' : nextView); setMobileNav(false);
   }
   const toggleBookmark = id => setBookmarks(b => b.includes(id) ? b.filter(x => x !== id) : [...b, id]);
   const openBookmarks = () => { setLibraryTab('saved'); navigate('library'); };
@@ -129,7 +129,7 @@ function StudyApp({ cards }) {
       <a href="#" className="brand" onClick={e => { e.preventDefault(); navigate('study'); }}><span className="brand-mark"><Layers size={23}/></span><span>lámina<span className="brand-dot">.</span></span></a>
       <div className="workspace-label">TU ESPACIO DE ESTUDIO</div>
       <nav aria-label="Navegación principal">
-        <button className={view === 'study' ? 'nav-item active' : 'nav-item'} onClick={() => navigate('study')}><BookOpen size={19}/><span>Estudiar</span><span className="nav-dot"/></button>
+        <button className={['study', 'setup'].includes(view) ? 'nav-item active' : 'nav-item'} onClick={() => navigate('study')}><BookOpen size={19}/><span>Estudiar</span><span className="nav-dot"/></button>
         <button className={view === 'library' ? 'nav-item active' : 'nav-item'} onClick={() => { setLibraryTab('all'); navigate('library'); }}><Grid2X2 size={18}/><span>Mi colección</span><span className="nav-count">70</span></button>
         <button className={view === 'progress' ? 'nav-item active' : 'nav-item'} onClick={() => navigate('progress')}><ChartNoAxesCombined size={19}/><span>Mi progreso</span></button>
         <button className="nav-item" onClick={openBookmarks}><Bookmark size={18}/><span>Guardadas</span>{bookmarks.length > 0 && <span className="nav-count">{bookmarks.length}</span>}</button>
@@ -144,12 +144,13 @@ function StudyApp({ cards }) {
     <div className="main-wrapper">
       <header className="topbar"><div className="breadcrumb"><button className="mobile-menu icon-button" aria-label="Abrir menú" onClick={() => setMobileNav(true)}><Menu size={21}/></button><GraduationCap size={18}/><span>Mi aprendizaje</span><span className="breadcrumb-slash">/</span><strong>Morfología I</strong></div><div className="topbar-right"><span className="session-pill" title={offlineReady ? "Las 70 láminas están disponibles sin Internet" : "El modo sin conexión se prepara al abrir la versión publicada"}><span/>{offlineReady ? "Disponible sin conexión" : "A tu ritmo"}</span><button className="icon-button help-button" onClick={() => setHelp(true)} aria-label="Ayuda">?</button></div></header>
       <main>
-        <div className="page-heading"><div><div className="eyebrow">MENOS MEMORIZAR. MÁS RECORDAR.</div><h1>{view === 'study' ? 'Una lámina a la vez.' : view === 'library' ? 'Tu próxima conexión.' : 'Cada repaso cuenta.'}<span className="heading-spark">✳</span></h1><p>{view === 'study' ? 'Observa con calma, confía en lo que sabes y sigue aprendiendo.' : view === 'library' ? '70 imágenes originales. Un mundo de detalles por descubrir.' : 'Pequeños avances que se convierten en conocimiento.'}</p></div><a className="source-link" href={sourceURL()} target="_blank" rel="noreferrer"><FileText size={16}/>Ver pauta original<ArrowUpRight size={14}/></a></div>
-        {storageWarning && <div className="storage-warning" role="alert">Tu navegador no permite guardar el progreso. Puedes estudiar, pero esta sesión no se conservará al cerrar.</div>}
+        <div className="page-heading"><div><div className="eyebrow">MENOS MEMORIZAR. MÁS RECORDAR.</div><h1>{view === 'setup' ? 'Tu sesión, a tu medida.' : view === 'study' ? 'Una lámina a la vez.' : view === 'library' ? 'Tu próxima conexión.' : 'Cada repaso cuenta.'}<span className="heading-spark">✳</span></h1><p>{view === 'setup' ? 'Elige cuántas láminas quieres repasar. Nosotros las mezclamos.' : view === 'study' ? 'Observa con calma, confía en lo que sabes y sigue aprendiendo.' : view === 'library' ? '70 imágenes originales. Un mundo de detalles por descubrir.' : 'Pequeños avances que se convierten en conocimiento.'}</p></div><div className="page-tools">{view === 'study' && <button className="new-session-button" onClick={() => chooseSession(cards)}><Shuffle size={14}/>Nueva sesión</button>}<a className="source-link" href={sourceURL()} target="_blank" rel="noreferrer"><FileText size={16}/>Ver pauta original<ArrowUpRight size={14}/></a></div></div>
+        {storageWarning && <div className="storage-warning" role="alert">Tu navegador no permite guardar el progreso. Puedes estudiar, pero tu progreso y tus favoritas no se conservarán al cerrar.</div>}
+        {view === 'setup' && <SessionPicker pool={sessionPool} total={cards.length} selected={sessionSize} onSelect={setSessionSize} onStart={() => startSession(sessionPool, sessionSize)} onAll={() => chooseSession(cards)}/>}
         {view === 'study' && <div className="study-layout">
           <div className="study-column">
             {!done && card ? <section className={`question-card ${feedback ? feedback.correct ? 'is-correct' : 'is-incorrect' : ''}`} aria-label={`Pregunta ${card.number}`}>
-              <div className="question-toolbar"><div className="question-number"><span className={feedback ? feedback.correct ? 'question-icon correct' : 'question-icon incorrect' : 'question-icon'}>{feedback ? feedback.correct ? <Check size={15}/> : <X size={15}/> : <Layers size={15}/>}</span>Pregunta {pad(card.number)}<span className="question-total">/ 70</span></div><div className="question-actions"><span className="topic-tag">{card.topic}</span><button className={`icon-button bookmark-button ${bookmarks.includes(card.id) ? 'bookmarked' : ''}`} title={bookmarks.includes(card.id) ? 'Quitar de guardadas' : 'Guardar lámina'} aria-label={bookmarks.includes(card.id) ? 'Quitar de guardadas' : 'Guardar lámina'} aria-pressed={bookmarks.includes(card.id)} onClick={() => toggleBookmark(card.id)}><Bookmark size={18} fill={bookmarks.includes(card.id) ? 'currentColor' : 'none'}/></button></div></div>
+              <div className="question-toolbar"><div className="question-number"><span className={feedback ? feedback.correct ? 'question-icon correct' : 'question-icon incorrect' : 'question-icon'}>{feedback ? feedback.correct ? <Check size={15}/> : <X size={15}/> : <Layers size={15}/>}</span>Pregunta {pad(session.index + 1)}<span className="question-total">/ {session.queue.length}</span></div><div className="question-actions"><span className="topic-tag">{card.topic}</span><button className={`icon-button bookmark-button ${bookmarks.includes(card.id) ? 'bookmarked' : ''}`} title={bookmarks.includes(card.id) ? 'Quitar de guardadas' : 'Guardar lámina'} aria-label={bookmarks.includes(card.id) ? 'Quitar de guardadas' : 'Guardar lámina'} aria-pressed={bookmarks.includes(card.id)} onClick={() => toggleBookmark(card.id)}><Bookmark size={18} fill={bookmarks.includes(card.id) ? 'currentColor' : 'none'}/></button></div></div>
               <div className="slide-area"><div className="slide-top-label"><span className="slide-dot"/>{card.category}</div><button className="slide-image-button" onClick={() => setZoom(true)} aria-label="Ampliar imagen de la lámina"><img className="slide-image" src={card.image} alt={`Lámina ${card.number}: imagen original de ${card.category}, con las indicaciones de la pauta`}/></button><button className="expand-button" onClick={() => setZoom(true)}><Maximize2 size={15}/><span>Ampliar imagen</span></button><span className="original-label">IMAGEN ORIGINAL · {card.id}</span></div>
               <div className="answer-section"><div className="question-eyebrow">OBSERVA LA IMAGEN Y RESPONDE</div><h2>{card.question}</h2><form onSubmit={e => { e.preventDefault(); feedback ? feedback.correct ? next() : retry() : submitReview(); }}>
                 <label htmlFor="answer">Tu respuesta</label><div className={`input-wrap ${feedback ? feedback.correct ? 'input-correct' : 'input-incorrect' : ''}`}><input id="answer" ref={inputRef} value={answer} onChange={e => setAnswer(e.target.value)} placeholder="¿Qué estructura reconoces?" autoComplete="off" autoCorrect="off" spellCheck="false" disabled={!!feedback || session.paused} aria-describedby={feedback ? 'answer-feedback' : 'answer-hint'}/>{feedback && (feedback.correct ? <Check size={20}/> : <XCircle size={20}/>)}</div>
@@ -158,7 +159,7 @@ function StudyApp({ cards }) {
                 <div className="answer-footer">{!feedback ? <><button className="text-button" type="button" disabled={session.paused} onClick={() => submitReview('reveal')}>Aún no lo sé</button><button className="primary check-button" disabled={!answer.trim() || session.paused} type="submit">Comprobar respuesta<ArrowRight size={17}/></button></> : <><button className="text-button" type="button" onClick={() => setExplanation(!explanation)}><BookOpen size={15}/>{explanation ? 'Ocultar explicación' : 'Entender el porqué'}<ChevronDown size={14} className={explanation ? 'rotate' : ''}/></button><button className="primary" type="submit">{feedback.correct ? 'Siguiente lámina' : 'Intentar de nuevo'}{feedback.correct ? <ArrowRight size={17}/> : <RotateCcw size={16}/>}</button></>}</div>
               </form>{explanation && <Explanation card={card}/>}</div>
               {session.paused && !feedback && <div className="pause-overlay"><span className="pause-circle"><Pause size={30}/></span><h2>Un respiro también ayuda.</h2><p>Tu tiempo y tu pregunta están en pausa.</p><button className="primary" onClick={pause}><Play size={17}/>Continuar estudiando</button></div>}
-            </section> : <section className="completion-card"><div className="completion-icon"><GraduationCap size={44}/></div><div className="eyebrow">SESIÓN COMPLETADA</div><h2>Un paso más.<br/>Mucho más aprendido.</h2><p>Completaste las {session.queue.length} láminas de esta sesión.<br/>Tu progreso quedó guardado para el próximo repaso.</p><button className="primary" onClick={() => startSession(cards, true)}><Shuffle size={17}/>Volver a practicar</button><button className="text-button" onClick={() => navigate('progress')}>Ver mi progreso<ArrowRight size={16}/></button></section>}
+            </section> : <section className="completion-card"><div className="completion-icon"><GraduationCap size={44}/></div><div className="eyebrow">SESIÓN COMPLETADA</div><h2>Un paso más.<br/>Mucho más aprendido.</h2><p>Completaste las {session.queue.length} láminas de esta sesión.<br/>Tu progreso quedó guardado para el próximo repaso.</p><button className="primary" onClick={() => chooseSession(cards)}><Shuffle size={17}/>Elegir otra sesión</button><button className="text-button" onClick={() => navigate('progress')}>Ver mi progreso<ArrowRight size={16}/></button></section>}
             <div className="study-caption"><span><span className="live-dot"/>Aprender es un proceso, no una carrera.</span><span>Un concepto. Una conexión. Un avance.</span></div>
           </div>
           <aside className="session-rail">
@@ -168,15 +169,46 @@ function StudyApp({ cards }) {
             <button className="rail-link" onClick={() => { setLibraryTab('all'); navigate('library'); }}><Grid2X2 size={15}/>Explorar las 70 láminas<ArrowUpRight size={15}/></button>
           </aside>
         </div>}
-        {view === 'library' && <section className="library-view"><div className="library-controls"><div className="library-tabs"><button className={libraryTab === 'all' ? 'selected' : ''} onClick={() => setLibraryTab('all')}>Todas las láminas <span>70</span></button><button className={libraryTab === 'saved' ? 'selected' : ''} onClick={() => setLibraryTab('saved')}>Guardadas <span>{bookmarks.length}</span></button></div><button className="primary" onClick={() => startSession(filtered, true)}><Shuffle size={16}/>Practicar selección</button></div><div className="search-controls"><div className="search-input"><Search size={18}/><input aria-label="Buscar láminas" placeholder="Busca por pregunta, tema o número…" value={search} onChange={e => setSearch(e.target.value)}/></div><select aria-label="Filtrar por tema" value={category} onChange={e => setCategory(e.target.value)}><option value="Todas">Todos los temas</option>{categories.map(c => <option key={c}>{c}</option>)}</select></div><div className="library-grid">{filtered.map(c => { const status = getCardStatus(progress.cards[c.id]); return <article className="library-card" key={c.id}><div className="library-image"><img src={c.image} alt={`Lámina ${c.number} de ${c.category}`} loading="lazy"/><span className="library-number">{pad(c.number)}</span><button className={`icon-button ${bookmarks.includes(c.id) ? 'bookmarked' : ''}`} aria-label={`Guardar lámina ${c.number}`} aria-pressed={bookmarks.includes(c.id)} onClick={() => toggleBookmark(c.id)}><Bookmark size={17} fill={bookmarks.includes(c.id) ? 'currentColor' : 'none'}/></button></div><div className="library-card-body"><span className="question-eyebrow">{c.category}</span><h3>{c.question}</h3><div className="library-card-footer"><span className={`card-status ${status}`}>{status === 'learned' ? 'Aprendida' : status === 'new' ? 'Por descubrir' : 'Para repasar'}</span><button aria-label={`Estudiar lámina ${c.number}`} onClick={() => startSession([c])}>Estudiar<ArrowUpRight size={14}/></button></div></div></article>; })}</div>{!filtered.length && <div className="empty-state"><Bookmark size={35}/><h2>{libraryTab === 'saved' ? 'Tus favoritas vivirán aquí.' : 'No encontramos esa lámina.'}</h2><p>{libraryTab === 'saved' ? 'Toca el marcador de una lámina para guardarla y repasarla después.' : 'Prueba con otro tema o número de pregunta.'}</p></div>}</section>}
-        {view === 'progress' && <section className="progress-view"><div className="metric-grid"><Metric icon={<Layers/>} value={`${mastered} / 70`} label="Láminas aprendidas"/><Metric icon={<Target/>} value={attempts ? `${accuracy}%` : '—'} label="Precisión en tus respuestas"/><Metric icon={<RotateCcw/>} value={due} label="Pendientes de repasar"/><Metric icon={<CheckCheck/>} value={attempts} label="Respuestas practicadas"/></div><div className="progress-content"><div className="topic-progress"><h2>Tu mapa de aprendizaje</h2><p>Cada tema, una nueva conexión.</p>{categories.map(c => { const all = cards.filter(card => card.category === c); const count = all.filter(card => getCardStatus(progress.cards[card.id]) === 'learned').length; return <div className="topic-row" key={c}><div><span>{c}</span><strong>{count} / {all.length}</strong></div><div className="progress-track"><span style={{ width: `${count / all.length * 100}%` }}/></div></div>; })}</div><div className="review-panel"><span className="review-symbol">✳</span><h2>Recordar necesita<br/>un segundo encuentro.</h2><p>Las respuestas correctas vuelven en 1, 3, 7, 14 y 30 días. Las que cuestan un poco más se quedan para practicar.</p><button className="primary" onClick={() => startSession(cards.filter(c => ['due', 'learning'].includes(getCardStatus(progress.cards[c.id]))), true)} disabled={!due}><RotateCcw size={16}/>Repasar pendientes{due > 0 && ` (${due})`}</button><button className="text-button" onClick={() => startSession(cards, true)}><Shuffle size={15}/>Practicar todas</button><p className="local-note">Tu progreso se guarda en este navegador. No necesitas una cuenta.</p></div></div></section>}
+        {view === 'library' && <section className="library-view"><div className="library-controls"><div className="library-tabs"><button className={libraryTab === 'all' ? 'selected' : ''} onClick={() => setLibraryTab('all')}>Todas las láminas <span>70</span></button><button className={libraryTab === 'saved' ? 'selected' : ''} onClick={() => setLibraryTab('saved')}>Guardadas <span>{bookmarks.length}</span></button></div><button className="primary" onClick={() => chooseSession(filtered)}><Shuffle size={16}/>Practicar selección</button></div><div className="search-controls"><div className="search-input"><Search size={18}/><input aria-label="Buscar láminas" placeholder="Busca por pregunta, tema o número…" value={search} onChange={e => setSearch(e.target.value)}/></div><select aria-label="Filtrar por tema" value={category} onChange={e => setCategory(e.target.value)}><option value="Todas">Todos los temas</option>{categories.map(c => <option key={c}>{c}</option>)}</select></div><div className="library-grid">{filtered.map(c => { const status = getCardStatus(progress.cards[c.id]); return <article className="library-card" key={c.id}><div className="library-image"><img src={c.image} alt={`Lámina ${c.number} de ${c.category}`} loading="lazy"/><span className="library-number">{pad(c.number)}</span><button className={`icon-button ${bookmarks.includes(c.id) ? 'bookmarked' : ''}`} aria-label={`Guardar lámina ${c.number}`} aria-pressed={bookmarks.includes(c.id)} onClick={() => toggleBookmark(c.id)}><Bookmark size={17} fill={bookmarks.includes(c.id) ? 'currentColor' : 'none'}/></button></div><div className="library-card-body"><span className="question-eyebrow">{c.category}</span><h3>{c.question}</h3><div className="library-card-footer"><span className={`card-status ${status}`}>{status === 'learned' ? 'Aprendida' : status === 'new' ? 'Por descubrir' : 'Para repasar'}</span><button aria-label={`Estudiar lámina ${c.number}`} onClick={() => startSession([c])}>Estudiar<ArrowUpRight size={14}/></button></div></div></article>; })}</div>{!filtered.length && <div className="empty-state"><Bookmark size={35}/><h2>{libraryTab === 'saved' ? 'Tus favoritas vivirán aquí.' : 'No encontramos esa lámina.'}</h2><p>{libraryTab === 'saved' ? 'Toca el marcador de una lámina para guardarla y repasarla después.' : 'Prueba con otro tema o número de pregunta.'}</p></div>}</section>}
+        {view === 'progress' && <section className="progress-view"><div className="metric-grid"><Metric icon={<Layers/>} value={`${mastered} / 70`} label="Láminas aprendidas"/><Metric icon={<Target/>} value={attempts ? `${accuracy}%` : '—'} label="Precisión en tus respuestas"/><Metric icon={<RotateCcw/>} value={due} label="Pendientes de repasar"/><Metric icon={<CheckCheck/>} value={attempts} label="Respuestas practicadas"/></div><div className="progress-content"><div className="topic-progress"><h2>Tu mapa de aprendizaje</h2><p>Cada tema, una nueva conexión.</p>{categories.map(c => { const all = cards.filter(card => card.category === c); const count = all.filter(card => getCardStatus(progress.cards[card.id]) === 'learned').length; return <div className="topic-row" key={c}><div><span>{c}</span><strong>{count} / {all.length}</strong></div><div className="progress-track"><span style={{ width: `${count / all.length * 100}%` }}/></div></div>; })}</div><div className="review-panel"><span className="review-symbol">✳</span><h2>Recordar necesita<br/>un segundo encuentro.</h2><p>Las respuestas correctas vuelven en 1, 3, 7, 14 y 30 días. Las que cuestan un poco más se quedan para practicar.</p><button className="primary" onClick={() => chooseSession(cards.filter(c => ['due', 'learning'].includes(getCardStatus(progress.cards[c.id]))))} disabled={!due}><RotateCcw size={16}/>Repasar pendientes{due > 0 && ` (${due})`}</button><button className="text-button" onClick={() => chooseSession(cards)}><Shuffle size={15}/>Practicar todas</button><p className="local-note">Tu progreso se guarda en este navegador. No necesitas una cuenta.</p></div></div></section>}
         <footer className="page-footer"><span><Layers size={13}/>lámina · Aprender para recordar.</span><span>Morfología I <span className="footer-dot">·</span> 70 láminas de tu pauta</span></footer>
       </main>
     </div>
     {notice && <div role="status" className="toast"><Lightbulb size={18}/>{notice}<button className="icon-button" aria-label="Cerrar aviso" onClick={() => setNotice('')}><X size={16}/></button></div>}
     {zoom && card && <Modal title={`Lámina ${pad(card.number)} · ${card.category}`} onClose={() => setZoom(false)} wide><img className="zoom-image" src={card.image} alt={`Imagen ampliada de lámina ${card.number}`}/><p className="zoom-caption">{card.question}</p></Modal>}
-    {help && <Modal title="Tu siguiente conexión empieza aquí" onClose={() => setHelp(false)}><div className="help-intro"><span className="brand-mark"><Layers size={24}/></span><p>Una forma más simple de estudiar tu pauta de Morfología I.</p></div><ol className="help-steps"><li><span>01</span><div><h3>Observa sin apuro</h3><p>Tienes 2 minutos por intento. Amplía la imagen si necesitas ver un detalle. Al pausar, se oculta la pregunta.</p></div></li><li><span>02</span><div><h3>Escribe lo que reconoces</h3><p>Se aceptan tildes omitidas, espacios, variantes equivalentes y pequeños errores de escritura. Los conceptos distintos siguen siendo incorrectos.</p></div></li><li><span>03</span><div><h3>Corrige, conecta y avanza</h3><p>Si fallas o se acaba el tiempo, verás la respuesta oficial y repetirás la misma lámina. Solo podrás avanzar al acertar.</p></div></li></ol><div className="help-note"><BookOpen size={19}/><p>El banco usa las 70 láminas del solucionario. El PDF de controles de 2024 se usó como referencia visual de la interfaz.</p></div><button className="primary full-width" onClick={() => setHelp(false)}>Vamos a aprender<ArrowRight size={17}/></button></Modal>}
+    {help && <Modal title="Tu siguiente conexión empieza aquí" onClose={() => setHelp(false)}><div className="help-intro"><span className="brand-mark"><Layers size={24}/></span><p>Una forma más simple de estudiar tu pauta de Morfología I.</p></div><ol className="help-steps"><li><span>01</span><div><h3>Elige tu sesión y observa</h3><p>Al entrar eliges 10, 15, 30, 40 o 70 láminas, siempre al azar y sin repetir dentro de la sesión. Tienes 2 minutos por intento. Amplía la imagen si necesitas ver un detalle. Al pausar, se oculta la pregunta.</p></div></li><li><span>02</span><div><h3>Escribe lo que reconoces</h3><p>Se aceptan tildes omitidas, espacios, variantes equivalentes y pequeños errores de escritura. Los conceptos distintos siguen siendo incorrectos.</p></div></li><li><span>03</span><div><h3>Corrige, conecta y avanza</h3><p>Si fallas o se acaba el tiempo, verás la respuesta oficial y repetirás la misma lámina. Solo podrás avanzar al acertar.</p></div></li></ol><div className="help-note"><BookOpen size={19}/><p>Al volver a abrir o recargar, eliges una sesión nueva. Tu progreso acumulado y tus guardadas se conservan. El banco usa las 70 láminas del solucionario. El PDF de controles de 2024 se usó como referencia visual de la interfaz.</p></div><button className="primary full-width" onClick={() => setHelp(false)}>Vamos a aprender<ArrowRight size={17}/></button></Modal>}
   </div>;
+}
+
+function SessionPicker({ pool, total, selected, onSelect, onStart, onAll }) {
+  const available = SESSION_SIZES.filter(size => size <= pool.length);
+  const sizes = available.length ? available : [pool.length];
+  const descriptions = { 10: 'Un repaso rápido', 15: 'Un poco más', 30: 'Toma ritmo', 40: 'A fondo', 70: 'El banco completo' };
+  return <section className="session-picker" aria-label="Configurar sesión">
+    <div className="picker-main">
+      <div className="picker-icon"><Shuffle size={24}/></div>
+      <div className="eyebrow">UNA NUEVA MEZCLA, CADA VEZ</div>
+      <h2>¿Cuánto quieres repasar hoy?</h2>
+      <p className="picker-description">Tú eliges el tamaño. Cada sesión combina imágenes al azar, sin repetir láminas.</p>
+      {pool.length < total && <div className="pool-notice"><Layers size={15}/><span>Practicando una selección de {pool.length} láminas.</span><button onClick={onAll}>Usar las 70</button></div>}
+      <fieldset className="session-options"><legend>Cantidad de láminas</legend>
+        {sizes.map(size => <label className={`session-option ${selected === size ? 'selected' : ''}`} key={size}>
+          <input type="radio" name="session-size" aria-label={`${size} láminas`} checked={selected === size} onChange={() => onSelect(size)}/>
+          <span className="option-check">{selected === size && <Check size={12}/>}</span>
+          <strong>{size}</strong><span className="option-unit">láminas</span><small>{descriptions[size] || 'Tu selección'}</small>
+        </label>)}
+      </fieldset>
+      <div className="picker-summary"><Shuffle size={16}/><span><strong>{selected} de {pool.length} láminas</strong> · orden aleatorio · sin repeticiones</span></div>
+      <button className="primary start-session-button" onClick={onStart}>Comenzar sesión<ArrowRight size={18}/></button>
+      <p className="picker-footnote">El tiempo empieza al comenzar. Tu progreso acumulado se conserva.</p>
+    </div>
+    <aside className="picker-aside">
+      <div className="picker-preview" aria-hidden="true">{[pool[0], pool[Math.floor(pool.length / 2)], pool[pool.length - 1]].map((card, index) => <div key={index}><img src={card.image} alt=""/></div>)}<span>✳</span></div>
+      <h3>Una pregunta.<br/>Toda tu atención.</h3>
+      <ul><li><Clock3 size={17}/><span><strong>2 minutos</strong> por intento</span></li><li><Target size={17}/><span>Solo avanzas <strong>al acertar</strong></span></li><li><CheckCheck size={17}/><span>Corrección <strong>al instante</strong></span></li></ul>
+      <p>Una sesión nueva cada vez que entras. El conocimiento que ganas se queda contigo.</p>
+    </aside>
+  </section>;
 }
 
 function Metric({ icon, value, label }) { return <div className="metric-card"><span>{icon}</span><strong>{value}</strong><p>{label}</p></div>; }
