@@ -1,5 +1,7 @@
 # Lámina
 
+**[Abrir la aplicación web](https://vizdiego26-pixel.github.io/codexxxxx/)** — funciona en Mac, Windows, iPad y Android. Comparte este enlace para estudiar sin descargar un APK.
+
 Una app de estudio de Morfología I: 70 imágenes originales de la pauta, una pregunta a la vez y dos minutos por intento. Diseñada para Mac, Windows y iPad.
 
 ## Estudiar
@@ -102,7 +104,7 @@ python test/e2e.py
 
 El workflow `.github/workflows/deploy.yml` compila, prueba y publica al hacer push a `main`. Se necesita activar **Settings → Pages → Source: GitHub Actions** en el repositorio. El sitio usa rutas relativas y puede servirse tanto en la raíz de un dominio como en la subruta del repositorio. GitHub entrega el enlace una vez completada la primera publicación.
 
-No se ha confirmado una publicación pública durante el desarrollo; un servidor local no es una dirección pública.
+La versión web está publicada en https://vizdiego26-pixel.github.io/codexxxxx/. Se verificaron el banco de 70 láminas, las sesiones aleatorias y la corrección que permite avanzar solo al acertar. En Android puede añadirse a la pantalla de inicio desde Chrome.
 
 ## Contenido y extracción
 
