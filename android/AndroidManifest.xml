@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="cl.lamina.study" android:versionCode="1" android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="26" android:targetSdkVersion="34" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true" />
+    <application android:label="Lámina" android:icon="@drawable/lamina_icon" android:roundIcon="@drawable/lamina_icon" android:theme="@style/LaminaTheme" android:allowBackup="true" android:supportsRtl="true" android:usesCleartextTraffic="false">
+        <activity android:name=".MainActivity" android:exported="true" android:resizeableActivity="true" android:configChanges="orientation|screenSize|smallestScreenSize|keyboardHidden|uiMode" android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider android:name=".PautaProvider" android:authorities="cl.lamina.study.documents" android:exported="false" android:grantUriPermissions="true" />
+    </application>
+</manifest>

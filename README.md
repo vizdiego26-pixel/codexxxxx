@@ -28,6 +28,36 @@ Después de compilar, `releases/Lamina-Mac.zip` y `releases/Lamina-Windows.zip` 
 
 La pauta se incluye como `pauta.pdf`. En modo `file://` algunos navegadores restringen la persistencia de datos locales; para el guardado más fiable, usa la versión web instalada.
 
+## Tablet Android
+
+[Descargar Lámina para Android (.apk)](https://github.com/vizdiego26-pixel/codexxxxx/raw/refs/heads/main/downloads/Lamina-Android.apk)
+
+Requiere Android 8.0 o posterior y Android System WebView actualizado. Es un APK universal para instalación directa, con las 70 imágenes y la pauta incluidas. Funciona sin Internet, ofrece sesiones aleatorias de 10, 15, 30, 40 o 70 láminas y conserva el progreso en el dispositivo.
+
+1. Descarga `Lamina-Android.apk` en la tablet y abre el archivo desde Descargas.
+2. Si Android lo solicita, permite instalar aplicaciones desde el navegador o gestor de archivos que estás usando.
+3. Instala y abre **Lámina**.
+
+La interfaz se adapta al formato vertical y horizontal. Girar la tablet conserva la pregunta y el tiempo restante. La pauta PDF se abre en un visor PDF del dispositivo. Es una distribución directa; no se ha publicado en Google Play.
+
+El APK no solicita permisos de Internet: sirve el contenido desde los archivos incluidos en la aplicación. No requiere una cuenta ni un servidor. El ZIP Android generado durante el build es una alternativa portable, pero se recomienda el APK por las restricciones de HTML local de algunos gestores de archivos de Android.
+
+### Compilar Android
+
+Además de Node y npm, requiere Java y `keytool` (validado con OpenJDK 21) y Python 3. El script descarga SDK Platform 35, Build Tools 35 y ECJ 3.39 desde sus fuentes oficiales por HTTPS y verifica los hashes publicados. No requiere Gradle ni instalación global del SDK.
+
+```sh
+npm run build
+python scripts/build-android.py
+python test/android.py
+```
+
+El SDK se conserva fuera del checkout en `/workspace/lamina-android-sdk`; se puede cambiar mediante `LAMINA_ANDROID_SDK`. El build genera `releases/Lamina-Android.apk`, comprueba alineación y verifica su firma.
+
+La firma se conserva en `/workspace/.lamina-signing`, fuera de Git y con permisos privados. **Conserva la clave y su contraseña para actualizar la app ya instalada**; no deben subirse al repositorio ni imprimirse. Si faltan, restaura los archivos originales de forma segura. Solo al crear una app nueva por primera vez se inicializan con `python scripts/build-android.py --init-signing`; una actualización de la app distribuida no debe generar otra clave.
+
+La validación incluye interfaz táctil emulada en tamaños de tablet, recursos del APK y firma criptográfica. No se ha ejecutado en un dispositivo o emulador de sistema Android en este entorno.
+
 ## iPad y app instalada
 
 Abre la dirección **HTTPS publicada** en Safari y selecciona **Compartir → Añadir a pantalla de inicio**. En Mac y Windows puedes instalarla desde el menú del navegador (Chrome o Edge: **Instalar Lámina**). La misma app se adapta a todas las pantallas.

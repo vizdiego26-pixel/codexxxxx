@@ -7,7 +7,8 @@
     "dev": "vite --host 0.0.0.0",
     "build": "vite build && node scripts/generate-precache.mjs && node scripts/build-offline.mjs",
     "preview": "vite preview --host 0.0.0.0",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "android": "npm run build && python scripts/build-android.py"
   },
   "dependencies": {
     "@fontsource-variable/dm-sans": "^5.3.0",
